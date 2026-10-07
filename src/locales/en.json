@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "progression": "Progression",
+    "mechanics": "Mechanics",
+    "combat": "Combat",
+    "items": "Items",
+    "codes": "Codes",
+    "controls": "Controls"
   },
   "home": {
     "meta": {
@@ -417,7 +424,34 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Shogun's Reign Guide: Getting Started",
+    "overviewDescription": "New to Shogun's Reign? Start here for beginner walkthroughs, samurai and servant roles, and the opening moves that set up a strong reign."
+  },
+  "progression": {
+    "overviewTitle": "Shogun's Reign Progression: Ranks, Ryo & Nobility",
+    "overviewDescription": "Climb the Shogun's Reign ranks, farm Ryo, earn Noble Documents, and unlock extra clothes as your reign grows."
+  },
+  "mechanics": {
+    "overviewTitle": "Shogun's Reign Mechanics: Crafting, Omamori & Survival",
+    "overviewDescription": "Master Shogun's Reign systems: crafting, omamori, the physician, cold, showers, and combat styles that shape every run."
+  },
+  "combat": {
+    "overviewTitle": "Shogun's Reign Combat: Swordplay, Clans & Tournaments",
+    "overviewDescription": "Learn Shogun's Reign combat, sword fighting, clan politics, samurai duels, and how to win tournaments."
+  },
+  "items": {
+    "overviewTitle": "Shogun's Reign Items: Clothes, Documents & Omamori",
+    "overviewDescription": "Every Shogun's Reign item explained: umbrellas, clothes, documents, omamori recipes, and the gear worth chasing."
+  },
+  "codes": {
+    "overviewTitle": "Shogun's Reign Codes",
+    "overviewDescription": "All active Shogun's Reign codes and how to redeem them for free rewards, Ryo, and boosts."
+  },
+  "controls": {
+    "overviewTitle": "Shogun's Reign Controls: VR, Fishing & Daily Actions",
+    "overviewDescription": "Shogun's Reign controls for PC and VR, plus how to fish, sleep, and eat without fumbling the inputs."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -448,10 +482,10 @@
     "officialYoutube": "Gameplay Guide",
     "vvBuilder": "Shogun's Reign Guide Hub",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "progressionGuides": "Progression Guides",
+    "combatGuides": "Combat Guides",
+    "codesGuides": "Codes"
   }
 }

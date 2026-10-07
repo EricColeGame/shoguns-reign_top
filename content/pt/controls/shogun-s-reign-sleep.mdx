@@ -1,0 +1,123 @@
+export const metadata = {
+  title: "Guia do Controle de Sono de Shogun's Reign: Descanse, Salve o Progresso e Domine os Comandos",
+  description: "Aprenda como funciona o controle de sono de Shogun's Reign, quando descansar e como corrigir bugs comuns de sono para nunca mais perder progresso.",
+  category: "controls",
+  date: "2026-10-07",
+}
+
+## Por Que o Controle de Sono de Shogun's Reign Importa Mais do Que Você Pensa
+
+Poucas mecânicas em Shogun's Reign punem a impaciência com mais força do que o descanso. Você pode vencer uma luta difícil, expandir seu domínio e ainda ver a sessão desmoronar porque nunca aprendeu o controle de sono de Shogun's Reign — o comando que consolida seu progresso e redefine a condição do seu personagem. A mecânica de sono de Shogun's Reign importa porque é a dobradiça silenciosa entre uma sessão produtiva e uma sessão desperdiçada: ignore-a e você continua grindando com stamina esgotada e salvamentos frágeis; domine-a e cada hora que você joga se multiplica.
+
+Este guia aborda onde o comando de sono fica em cada esquema de controle, como a transição de descanso é resolvida, quais erros causam os bugs de sono mais comuns e como montar uma rotina de descanso que se encaixe no seu jeito de jogar. Tudo aqui foi escrito para jogadores que querem menos surpresas, não mais lore.
+
+A maioria dos jogadores trata o descanso como tempo morto, algo para encaixar quando nada mais está acontecendo. Essa visão é invertida. O sono é o momento em que o jogo grava suas decisões na memória — literalmente, na maioria das builds — então tratá-lo como um controle que você domina de propósito compensa mais do que espremer uma luta extra em uma sessão.
+
+## Onde o Comando de Sono Fica em Cada Esquema de Controle
+
+O sono em Shogun's Reign quase sempre é uma ação contextual, e não uma tecla de atalho independente. Isso significa que o comando só dispara quando o jogo decide que você está em um lugar válido e não está preso em combate, diálogo ou cutscene.
+
+| Esquema de controle | Como o sono geralmente é acionado | Como confirmar seu mapeamento |
+|---|---|---|
+| Teclado e mouse | Prompt de interação enquanto você está dentro de uma zona de descanso | Abra Configurações → Controles e verifique a entrada de Interação/Descanso |
+| Gamepad | Prompt de botão de face perto de cama ou de um marcador de descanso | Siga o prompt na tela; remapeie se houver conflito |
+| Tela sensível ao toque | Toque e segure o ícone de sono no HUD | Use o editor de layout para reposicionar ou redimensionar o ícone |
+| Portátil ou streaming | Espelha o layout de controle que você usou por último | Verifique os mapeamentos de novo após trocar de dispositivo |
+
+Trate qualquer lista de teclas que encontrar online — incluindo esta — como ponto de partida, não como evangelho. Os mapeamentos mudam entre plataformas e podem ser remapeados pelo jogador, então o único mapeamento que importa é o que aparece no seu próprio menu de controles. Se o prompt sumir depois de uma atualização, esse menu é o primeiro lugar a checar.
+
+Quatro regras se aplicam ao comando de sono independentemente da plataforma:
+
+- **Você precisa estar parado.** Entrada de movimento durante a transição muitas vezes cancela.
+- **Você precisa estar em uma zona válida.** Cama, uma estalagem ou um marcador de descanso designado.
+- **Você precisa estar fora de combate.** Inimigos por perto bloqueiam o prompt completamente.
+- **Você precisa confirmar.** A maioria das builds mostra um prompt ou cronômetro antes de o descanso ser efetivado.
+
+## Como a Mecânica de Sono de Shogun's Reign Realmente Funciona
+
+Por baixo do capô, o sono é uma transição de estado com três verificações: local, ameaça e tempo. O jogo confirma que você está em uma zona de descanso válida, confirma que nenhum inimigo está engajado, então avança o relógio do jogo e aplica recuperação. Em muitas builds, ele também grava um autosave, e é por isso que jogadores experientes dormem antes de fechar o jogo, não depois.
+
+### O Que um Descanso Completo Normalmente Restaura
+
+| Recurso | Efeito após dormir | Observações |
+|---|---|---|
+| Stamina | Recarregada ao máximo | O principal motivo para descansar antes de uma longa jornada |
+| Vida | Restaurada ao longo da animação | Recuperação parcial em algumas builds |
+| Buff de foco ou alerta | Bônus temporário | Duração varia conforme a qualidade do descanso |
+| Relógio do jogo | Avança várias horas | Útil para eventos com tempo limitado |
+| Arquivo de save | Autosave na maioria das builds | Verifique se o autosave está ativado |
+
+### Quando Dormir e Quando Continuar
+
+| Situação | Ação recomendada | Por que ajuda |
+|---|---|---|
+| Stamina baixa antes de tentar um chefe | Durma primeiro | Você entra na luta com capacidade total |
+| No meio de uma missão com cronômetro correndo | Continue | Dormir pode avançar o relógio além do prazo |
+| Depois de um upgrade ou compra importante | Durma para consolidar o progresso | Trava a mudança no seu save |
+| Mortes repetidas em uma área | Durma, depois mude a abordagem | Reinicia seu modelo mental e seus recursos |
+| Prestes a sair do jogo | Durma, depois saia | Reduz o risco de perder progresso recente |
+
+## Problemas Comuns de Sono em Shogun's Reign e Correções
+
+Relatos da comunidade se concentram em um pequeno conjunto de problemas recorrentes. Nenhum deles é misterioso depois que você sabe o que os dispara.
+
+| Sintoma | Causa provável | Correção |
+|---|---|---|
+| Prompt de sono nunca aparece | Você não está dentro de uma zona de descanso válida | Vá para uma cama, estalagem ou ponto de descanso marcado |
+| A animação começa e depois cancela | Entrada de movimento ou ataque durante a transição | Solte todos os comandos e espere o prompt terminar |
+| Personagem acorda imediatamente | Inimigo por perto ou estado de missão ativo | Limpe a área ou avance a missão primeiro |
+| Progresso não salvo após dormir | Autosave desativado ou problema de armazenamento | Ative o autosave e verifique o espaço livre de armazenamento |
+| Comando de sono sem resposta | Mapeamento remapeado ou em conflito | Redefina os controles para o padrão, depois remapeie com cuidado |
+
+A experiência dos jogadores adiciona algumas notas práticas que nenhuma nota de patch vai contar. Se você dormir em uma zona que não deixou totalmente segura, pode acordar com uma situação diferente — isso é comportamento intencional, não um bug. Se dormir enquanto um objetivo cronometrado está ativo, espere que o cronômetro continue correndo. E se estiver jogando em um portátil depois de uma sessão na nuvem, verifique seus mapeamentos de novo; o mapa de entrada às vezes segue o último dispositivo, e não o atual.
+
+## Sono vs. Outras Opções de Recuperação
+
+Dormir não é a única forma de recuperar, e saber quando usar algo mais barato economiza tempo de verdade.
+
+| Método de recuperação | Custo de tempo | O que restaura | Melhor uso |
+|---|---|---|---|
+| Sono completo | Avança o relógio várias horas | Stamina, vida, buffs, save | Antes de lutas importantes e antes de sair |
+| Descanso curto ou meditação | Mínimo | Stamina parcial | Para completar entre encontros curtos |
+| Comida e bebida | Instantâneo | Stamina e buffs temporários | No meio da exploração quando você não consegue chegar a uma zona de descanso |
+| Descanso em santuário ou zona segura | Pequeno | Recuperação parcial e um ponto seguro | Definir um local de respawn confiável |
+| Ignorar recuperação | Nenhum | Nada | Quase nunca vale a pena |
+
+A troca é direta: dormir oferece o reset mais completo, mas custa mais tempo de jogo. Se seu objetivo atual é sensível ao tempo, uma refeição ou um descanso curto é o melhor controle a usar. Se não for, dormir quase sempre é a jogada mais forte, porque também consolida seu save.
+
+## Montando uma Rotina de Descanso de Acordo com a Duração da Sua Sessão
+
+O melhor hábito de sono depende de quanto tempo você realmente senta para jogar. Use isto como estrutura inicial e ajuste ao seu ritmo.
+
+| Duração da sessão | Plano de sono | Retorno |
+|---|---|---|
+| 15–20 minutos | Um descanso no começo, um antes de sair | Entrada limpa e saída limpa |
+| 45–60 minutos | Descanse antes de cada encontro importante | Menos mortes evitáveis |
+| Duas horas ou mais | Descanse em quebras naturais de capítulo ou missão | O progresso fica consolidado se algo travar |
+| Última sessão do dia | Durma, depois saia | Sua última hora de trabalho está salva |
+
+Alguns hábitos separam jogadores que raramente perdem progresso daqueles que perdem o tempo todo:
+
+- **Durma antes de sair do jogo, não depois.** O save acontece durante o descanso, não quando você fecha o jogo.
+- **Mantenha uma zona de descanso na sua rota principal.** Um pequeno desvio é melhor que um longo retorno.
+- **Observe o relógio antes de descansar.** Se um evento cronometrado estiver pendente, dormir pode passar do prazo.
+- **Descanse após grandes decisões.** Compras, upgrades e entregas de missão valem a pena consolidar.
+- **Não durma no meio da luta.** O prompt não vai disparar, e você desperdiça a tentativa.
+
+Para orientações gerais de layout de controles e convenções mais amplas de input entre gêneros, o [hub de guias de jogos da IGN](https://www.ign.com/) é um ponto de referência confiável quando você quer comparar como outros títulos lidam com ações contextuais.
+
+## FAQ: Perguntas sobre o Sono em Shogun's Reign
+
+**Existe um botão dedicado de sono em Shogun's Reign?**
+Na maioria das builds, não. A ação de sono de Shogun's Reign é contextual — ela aparece como um prompt quando você está em uma zona de descanso válida e nada hostil está engajado. Verifique seu menu de controles para a entrada de Interação ou Descanso, já que é esse o mapeamento que o prompt usa.
+
+**Você pode dormir em qualquer lugar do mapa?**
+Em geral, não. O descanso é limitado a locais designados, como camas, estalagens ou pontos seguros marcados. Relatos da comunidade sugerem que o prompt é deliberadamente restrito para que dormir continue sendo uma decisão significativa, e não um reset grátis.
+
+**Dormir salva o seu jogo?**
+Na maioria das builds, sim, desde que o autosave esteja ativado. É exatamente por isso que o controle de sono de Shogun's Reign vale a pena aprender cedo: ele também funciona como seu ponto de save mais confiável. Se você notar que o progresso não fica após um descanso, verifique primeiro as configurações de autosave e o armazenamento disponível.
+
+**Por que meu personagem acorda imediatamente depois de dormir?**
+As duas causas mais comuns são um inimigo por perto e um estado de missão ativo que bloqueia o descanso. Limpe a área, conclua ou avance o objetivo, depois tente de novo. Se o problema persistir em uma zona que você já deixou segura, redefina seus controles para o padrão — um mapeamento em conflito pode interromper a transição.
+
+Dominar o descanso não é glamouroso, mas é um dos controles de maior valor no jogo. Durma de propósito, durma antes de sair, e a mecânica de sono de Shogun's Reign deixa de ser um detalhe de fundo e passa a ser o motivo pelo qual seu progresso sobrevive.

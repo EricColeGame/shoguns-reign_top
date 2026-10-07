@@ -1,0 +1,178 @@
+export const metadata = {
+  title: "Shogun's Reign Steuerung: Kompletter Leitfaden für Tastatur, Maus und Controller",
+  description: "Meistere die Steuerung von Shogun's Reign mit Standardbelegungen, Tipps zu Kamera und Armeebefehlen, Schritten zum Neubelegen, Sensibilitätseinstellungen und Lösungen für häufige Probleme.",
+  category: "controls",
+  date: "2026-10-07",
+}
+
+Wenn du jemals eine Schlacht verloren hast, weil deine Armee nach links marschierte, obwohl du nach rechts wolltest, verstehst du bereits, warum die Steuerung von Shogun's Reign eine ernsthafte Betrachtung verdient. Saubere, bewusste Eingaben unterscheiden einen Kommandanten, der auf das Schlachtfeld reagiert, von einem, der ständig gegen die Benutzeroberfläche kämpft. Dieser Leitfaden erklärt, wie die Steuerung von Shogun's Reign mit Tastatur, Maus und Gamepad funktioniert, und führt dann durch Neubelegung, Sensibilitätsanpassung und die Lösungen, die die meisten Eingabeprobleme beheben.
+
+## Warum Steuerungsbeherrschung deinen Feldzug verändert
+
+Strategie- und Action-Strategiespiele belohnen Vorbereitung. Wenn deine Hände wissen, wo jeder Befehl liegt, richtest du deine Aufmerksamkeit auf Gelände, Matchups und Timing, statt nach einer Taste zu suchen. Diese mentale Verschiebung ist der eigentliche Gewinn, wenn du die Steuerung von Shogun's Reign richtig lernst.
+
+Das Steuerungsschema in einem Spiel wie diesem teilt sich normalerweise in eine Handvoll funktionaler Ebenen auf. Wenn du diese Ebenen verstehst, wird das Neubelegen viel einfacher, weil du zusammengehörige Befehle auf Tasten legen kannst, die deine Finger gemeinsam erreichen.
+
+| Steuerungsebene | Was sie regelt | Warum sie wichtig ist |
+|---|---|---|
+| Kamera und Ansicht | Schwenken, Zoomen, Drehen, Edge-Scrolling | Du kannst nicht befehligen, was du nicht siehst |
+| Einheitenauswahl | Einzelklicks, Rahmenziehen, Modifikatorklicks | Schnelle Auswahl ermöglicht schnelle Entscheidungen |
+| Armeebefehle | Bewegen, Angreifen, Halten, Formation, Rückzug | Befehle sind der Kern jeder Auseinandersetzung |
+| Zeit und Pause | Pause, Zeitlupe, Geschwindigkeitsumschaltung | Ermöglicht Planung, ohne das Tempo zu verlieren |
+| Interface und Menüs | Panels, Overlays, Einheitenkarten, Minimap | Hält Informationen nur einen Tastendruck entfernt |
+| System und Aufnahme | Screenshots, Aufzeichnung, Schnellspeichern | Komfort für Leitfäden und Replays |
+
+Die genauen Standardbelegungen variieren zwischen Builds und Plattformen. Behandle daher jede veröffentlichte Belegung als Ausgangspunkt und nicht als Evangelium. Das Controls-Menü im Spiel ist immer die letzte Instanz.
+
+## Standardbelegungen für Tastatur und Maus
+
+Maus und Tastatur bleiben für die meisten Kommandanten die präziseste Art zu spielen, vor allem weil ein Mauszeiger die Einheitenauswahl und Zielzuweisung direkt wirken lässt. Die folgende Tabelle spiegelt die Konventionen wider, auf die sich dieses Genre am häufigsten stützt.
+
+| Aktion | Typische Standardeingabe | Hinweise |
+|---|---|---|
+| Kamera schwenken | W, A, S, D oder Pfeiltasten | Edge-Scrolling ist oft ebenfalls aktiviert |
+| Hinein-/herauszoomen | Mausrad | Sanftes Zoomen ist beim Aufklären besser als stufenweises Zoomen |
+| Kamera drehen | Mittlere Maustaste ziehen oder Q / E | Drehkontrolle ist auf hügeligen Karten wichtig |
+| Einzelne Einheit auswählen | Linksklick | Klicke das Modell oder seine Einheitenkarte an |
+| Rahmenauswahl | Linksklick und ziehen | Erfasst alles innerhalb des Rechtecks |
+| Zur Auswahl hinzufügen | Shift + Linksklick | Ideal, um gemischte Gruppen zu bilden |
+| Bewegungsbefehl geben | Rechtsklick auf den Boden | Der Befehl für alles |
+| Angriffsbefehl geben | Rechtsklick auf einen Gegner | Vor dem Ausführen bestätigen |
+| Position halten | Eine eigene Halten- oder Haltungstaste | Hindert Einheiten am Nachsetzen |
+| Kontrollgruppe erstellen | Strg + Zahlentaste | Genrestandard |
+| Kontrollgruppe abrufen | Zahlentaste | Doppeltippen zentriert oft die Kamera |
+| Pause / Geschwindigkeit anpassen | Leertaste oder Geschwindigkeitstasten | Pausieren ist eine legitime Taktik |
+| Interface-Panels umschalten | Tab oder eine Funktionstaste | Leert den Bildschirm für filmische Ansichten |
+
+**Praktischer Tipp:** Bevor du dein erstes ernsthaftes Match spielst, starte ein kurzes Scharmützel und verwende bewusst jede Zeile dieser Tabelle mindestens zweimal. Muskelgedächtnis bildet sich schneller, wenn du Befehle im Kontext übst, statt sie nur zu lesen.
+
+Wenn du bestätigen möchtest, was der aktuelle Build mitbringt, prüfe die Store-Seite und die Patchnotes für deine Plattform — [Shogun's Reign on Steam](https://store.steampowered.com/search/?term=Shogun%27s+Reign) ist ein vernünftiger Ausgangspunkt für Versionsverlauf und Update-Ankündigungen.
+
+## Controller- und Gamepad-Unterstützung
+
+Gamepad-Layouts in diesem Genre tauschen üblicherweise rohe Präzision gegen Komfort und Couch-Spielen. Das folgende Muster ist das, wozu die meisten Implementierungen tendieren.
+
+| Aktion | Typische Gamepad-Eingabe |
+|---|---|
+| Kamera bewegen | Linker Stick, rechter Stick für freies Umsehen |
+| Einheit auswählen oder bestätigen | Untere Gesichtstaste |
+| Abbrechen oder abwählen | Rechte Gesichtstaste |
+| Durch Einheiten wechseln | Schultertasten |
+| Befehlsrad öffnen | Trigger halten, dann Richtung wählen |
+| Spielgeschwindigkeit anpassen | D-Pad hoch und runter |
+| Pausenmenü | Start oder Optionen |
+| Schnelle Karteneinblendung | Back oder Select |
+
+Nicht jeder Build erscheint mit vollständiger Gamepad-Unterstützung, und manche bieten teilweise Unterstützung, die mit der Zeit verbessert wird. Prüfe zuerst das Einstellungsmenü; wenn eine Controller-Option existiert, kannst du meist zwischen voreingestellten Layouts und einer vollständig benutzerdefinierten Belegung wählen.
+
+### Kamera-Disziplin kommt zuerst
+
+Die meisten Steuerungsbeschwerden lassen sich auf die Kamera zurückführen, nicht auf die Befehle. Zwei Gewohnheiten beheben die Mehrheit davon:
+
+- **Verankere deine Kamera bei deiner Hauptstreitmacht** und wechsle nur dann zur Minimap, wenn du eine zweite Front brauchst.
+- **Nutze Drehung sparsam.** Ständiges Drehen der Ansicht desorientiert dich mehr, als es hilft, besonders wenn du unter Druck Befehle gibst.
+
+### Auswahltricks, die Sekunden sparen
+
+- Ziehe die Rahmenauswahl vom hinteren Teil deiner Formation auf, damit du die ganze Linie erfasst und nicht nur die vorderste Reihe.
+- Nutze Modifikatorklicks, um kombinierte Waffengattungen zu gruppieren, und speichere sie dann als Kontrollgruppen.
+- Doppeltippe eine Kontrollgruppentaste, um die Kamera sofort auf diese Gruppe zu schnappen.
+
+### Befehlswarteschlange
+
+Viele Spiele in diesem Stil lassen dich eine Modifikatortaste halten, während du Befehle gibst, um sie in eine Warteschlange zu stellen. Eine eingereihte Sequenz — hierhin bewegen, dann dort angreifen, dann zurückfallen — lässt dich einen kleinen Plan mit zwei Klicks statt fünf ausführen. Es ist eines der am meisten unterschätzten Werkzeuge im gesamten Steuerungsschema.
+
+| Situation | Steuerungsansatz | Warum es funktioniert |
+|---|---|---|
+| Hinterhalt vorbereiten | Bewegung einreihen, dann Position halten | Einheiten kommen an und verschanzen sich automatisch |
+| Flankieren | Zwei Kontrollgruppen, entgegengesetzte Anmarschwege | Teilt die Aufmerksamkeit des Gegners |
+| Rückzug unter Beschuss | Rückzug einreihen, dann neu sammeln | Vermeidet Panikklicks |
+| Eine Linie verstärken | Frische Einheiten per Shift zu einer bestehenden Gruppe hinzufügen | Bewahrt die Gruppenidentität |
+| Aufklären | Eine einzelne schnelle Einheit, kameraverfolgt | Günstige Informationen, geringes Risiko |
+
+## So belegst du deine Shogun's Reign-Steuerung neu
+
+Neubelegen sind die fünf wertvollsten Minuten, die du investieren kannst. Das Ziel ist nicht, das Layout von jemand anderem zu kopieren — es geht darum, den Handweg für die Befehle zu verringern, die du am meisten nutzt.
+
+| Schritt | Wo | Was zu tun ist |
+|---|---|---|
+| 1 | Hauptmenü | Öffne Einstellungen, dann den Tab Steuerung oder Tastenbelegung |
+| 2 | Belegungsliste | Wähle eine Kategorie wie Kamera, Auswahl oder Befehle |
+| 3 | Zielaktion | Klicke die aktuelle Belegung an, um sie hervorzuheben |
+| 4 | Eingabeerfassung | Drücke die Taste, Maustaste oder Gamepad-Eingabe, die du möchtest |
+| 5 | Konfliktprüfung | Löse jede Warnung über eine doppelte Belegung |
+| 6 | Anwenden | Bestätige und speichere das Profil |
+| 7 | Überprüfen | Lade ein Scharmützel und teste jeden geänderten Befehl |
+| 8 | Sichern | Notiere dein Layout, falls ein Patch die Einstellungen zurücksetzt |
+
+Eine nützliche Faustregel: Halte deine meistgenutzten Befehle auf Tasten, die deine linke Hand ohne Bewegung erreicht, und lege destruktive oder seltene Befehle weiter weg. Dieses eine Prinzip verhindert die meisten versehentlichen Befehle.
+
+### Sensibilitäts- und Kamera-Einstellungen
+
+Sensibilität ist persönlich, aber der Prozess, deine Einstellung zu finden, ist es nicht. Beginne beim Standard, ändere jeweils nur einen Regler und spiele ein volles Match, bevor du erneut anpasst.
+
+| Einstellung | Was sie beeinflusst | Empfohlenes Vorgehen |
+|---|---|---|
+| Kamera-Schwenkgeschwindigkeit | Wie schnell sich die Ansicht mit Tasten oder Stick bewegt | Beim Standard beginnen; leicht erhöhen, wenn du dich träge fühlst |
+| Edge-Scroll-Geschwindigkeit | Schwenken, wenn der Cursor sich dem Bildschirmrand nähert | Verringern oder Edge-Scroll ganz deaktivieren |
+| Zoomgeschwindigkeit | Wie schnell das Rad oder der Trigger zoomt | Moderat; sehr schnelles Zoomen verursacht Fehlklicks |
+| Mausempfindlichkeit | Zeigerweg pro physischer Bewegung | So lange justieren, bis sich die Rahmenauswahl präzise anfühlt |
+| Y-Achse invertieren | Vertikale Kamerarichtung | Nur Präferenz; an andere Spiele anpassen, die du spielst |
+| Kamera-Shake | Bildschirmbewegung bei Einschlägen | Reduzieren, wenn es das Zielen beeinträchtigt |
+
+## Fehlerbehebung bei häufigen Steuerungsproblemen
+
+Wenn Eingaben nicht mehr funktionieren, ist die Ursache meist einfach. Arbeite diese Tabelle durch, bevor du annimmst, dass etwas kaputt ist.
+
+| Symptom | Wahrscheinliche Ursache | Lösung |
+|---|---|---|
+| Tasten tun im Spiel nichts | Fensterfokus verloren oder Overlay fängt Eingaben ab | Klicke ins Spielfenster, schließe Overlays |
+| Controller wird nicht erkannt | Verbindungs- oder Treiberproblem | Neu verbinden, USB-Ports wechseln, Spiel neu starten |
+| Doppelte Eingaben bei einem Druck | Doppelte Belegung | Konflikt im Steuerungsmenü löschen |
+| Kamera driftet von selbst | Edge-Scrolling plus festhängende Cursorposition | Edge-Scroll deaktivieren |
+| Befehle werden ignoriert | Einheit ist betäubt, flieht oder außer Reichweite | Einheitenstatus prüfen, bevor du erneut befiehlst |
+| Belegungen nach einem Update zurückgesetzt | Patch hat die Konfiguration überschrieben | Profil erneut anwenden und wieder speichern |
+| Maus fühlt sich schwammig an | Hohe Sensibilität oder Glättung aktiviert | Sensibilität senken, Glättung deaktivieren |
+
+### Erfahrungswerte von Spielern
+
+Community-Berichte heben immer wieder ein paar Gewohnheiten hervor, die reibungsloses Spiel von ständiger Reibung trennen:
+
+- Viele Spieler sagen, **Kontrollgruppen sind das größte einzelne Upgrade** für ihre Befehlsgeschwindigkeit, mehr als jede Sensibilitätsanpassung.
+- Mehrere Community-Berichte erwähnen, dass **Edge-Scrolling mehr Fehlklicks verursacht, als es spart**, besonders auf großen Monitoren.
+- Spielerfahrung legt nahe, dass **Pausieren zum Planen kein Cheaten ist** in den meisten Einzelspielermodi, also belege Pause irgendwo bequem.
+- Ein wiederkehrender Tipp ist, **die Kamera-Drehung von der Maus weg neu zu belegen**, wenn du das Ziehen mit der mittleren Maustaste für andere Aktionen nutzt.
+
+## Barrierefreiheit und Komfortoptionen
+
+Moderne Veröffentlichungen in diesem Bereich enthalten oft Optionen, die einen Blick wert sind, selbst wenn du dich nicht als jemanden betrachtest, der sie braucht:
+
+- **Halten versus Umschalten** für Kamera-Drehung, Sprinten oder Modifikatortasten.
+- **Alles neu belegbar**, einschließlich Menünavigation.
+- **Untertitel und UI-Skalierung**, die auf Ultrawide-Displays wichtig sind.
+- **Farbenblindheits-Paletten** für Fraktions- und Auswahlhervorhebungen.
+- **Pause bei Fokusverlust**, was Katastrophen beim Alt-Tabben verhindert.
+
+Zwei Minuten in diesen Menüs entfernen oft eine Irritation, mit der du dich einfach abgefunden hattest.
+
+## Häufig gestellte Fragen
+
+**Kann ich Shogun's Reign ausschließlich mit einer Tastatur spielen?**
+
+Ja, in den meisten Builds hat jede Kernaktion eine Tastaturbelegung, und viele Spieler berühren für Befehle nie die Maus. Allerdings sind Rahmenauswahl und präzises Zielen mit einem Zeiger deutlich schneller, daher ist ein Hybridansatz meist am effizientesten.
+
+**Wie setze ich meine Belegungen auf Standard zurück?**
+
+Öffne das Steuerungsmenü und suche nach einer Option zum Zurücksetzen, Wiederherstellen oder für das Standardprofil. Wenn deine Einstellungsdatei extern bearbeitet wurde, führt das Löschen oder Umbenennen der Konfigurationsdatei und ein Neustart des Spiels normalerweise zu einem sauberen Standardlayout.
+
+**Warum verschwinden meine Kontrollgruppen immer wieder?**
+
+Kontrollgruppen werden üblicherweise geleert, wenn die Einheiten darin zerstört, in eine andere Gruppe eingegliedert werden oder wenn ein Speicherstand mitten in der Schlacht neu geladen wird. Baue Gruppen nach großen Gefechten neu auf, statt dich auf eine alte Zuweisung zu verlassen.
+
+**Lohnt es sich, das Gamepad-Layout zu lernen?**
+
+Das hängt davon ab, wo du spielst. Auf der Couch oder mit einem Controller-first-Setup ist das Gamepad-Layout komfortabel und völlig brauchbar. Wenn du wettbewerbsorientierte Präzision anstrebst, bleiben Tastatur und Maus für die meisten Spieler das schärfere Werkzeug.
+
+## Abschließende Gedanken
+
+Die Steuerung von Shogun's Reign ist keine Hürde, die du einmal nimmst — sie ist eine Fähigkeit, die du über Dutzende Matches hinweg schärfst. Beginne damit, die Kamera- und Auswahlebene zu lernen, ergänze Kontrollgruppen und belege nur das neu, was dich wirklich ausbremst. Zehn Minuten bewusstes Üben in einem Scharmützel werden mehr für deine Siegquote tun als jede Menge Lesen. Also lade ein Match, führe die Übungen aus und lass deine Hände zu deinen Plänen aufschließen.
