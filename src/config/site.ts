@@ -19,18 +19,18 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Shogun's Reign Wiki",
+  shortName: "Shogun's Reign",
+  logoText: "SR",
+  tagline: "Edo Japan Roleplay Guides, Ranks, Professions & Codes",
+  description: "Shogun's Reign Wiki covers Roblox Edo roleplay guides, ranks, professions, Ryō farming, combat, housing, progression, codes, updates, and tips for rising to Shogun.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://shoguns-reign.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://shoguns-reign.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://www.roblox.com/games/106568491289620/Shoguns-Reign",
+  heroVideoId: "4mNs6qjB4Wo", // Shogun's Reign Roblox guide: things you need to know
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://www.roblox.com/communities/860520432/Shoguns-Reign",
+    youtube: "https://www.youtube.com/watch?v=4mNs6qjB4Wo",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
