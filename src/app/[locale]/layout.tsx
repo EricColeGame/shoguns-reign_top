@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     metadataBase: new URL(siteUrl),
     title: { default: "Shogun's Reign Wiki - Codes, Ranks & Guides", template: "%s" },
     description: "Shogun's Reign Wiki covers Roblox Edo roleplay guides, ranks, professions, Ryō farming, combat, housing, progression, codes, updates, and tips for rising to Shogun.",
+    keywords: ["Shogun's Reign", "Shogun's Reign Wiki", "shogun s reign wiki", "Shogun's Reign codes", "Shogun's Reign ranks", "Roblox Edo Japan roleplay", "Ryō farming", "Shogun's Reign guide"],
     manifest: "/manifest.json",
     icons: {
       icon: [
@@ -49,10 +50,10 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: siteConfig.name,
-    url: siteUrl,
-    logo: `${siteUrl}/android-chrome-512x512.png`,
-    image: `${siteUrl}/images/hero.webp`,
+    "name": siteConfig.name,
+    "url": siteUrl,
+    "logo": `${siteUrl}/android-chrome-512x512.png`,
+    "image": `${siteUrl}/images/hero.webp`,
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;

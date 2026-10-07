@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Edo Japan Roleplay Guides, Ranks, Professions & Codes",
   description: "Shogun's Reign Wiki covers Roblox Edo roleplay guides, ranks, professions, Ryō farming, combat, housing, progression, codes, updates, and tips for rising to Shogun.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://shoguns-reign.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://shoguns-reign.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@shoguns-reign.top",
   gameUrl: "https://www.roblox.com/games/106568491289620/Shoguns-Reign",
   heroVideoId: "4mNs6qjB4Wo", // Shogun's Reign Roblox guide: things you need to know
   social: {
