@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://www.roblox.com/communities/860520432/Shoguns-Reign",
     youtube: "https://www.youtube.com/watch?v=4mNs6qjB4Wo",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "es", "pt", "de"],
   defaultLocale: "en",
 };
