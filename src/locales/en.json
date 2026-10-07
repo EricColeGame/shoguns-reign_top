@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Start your reign the right way: learn the controls, your first jobs, and the early goals that keep you moving."
         },
         {
           "number": "2",
           "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "description": "Climb the rank ladder quickly with the most efficient early progression routes and habits."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Best Ryō Farming",
+          "description": "Stack Ryō fast with the most reliable farming, trading, and job routes for every stage."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Shogun's Reign."
+          "title": "All Codes",
+          "description": "Redeem every working code for free Ryō, boosts, and cosmetics before it expires."
         }
       ]
     },
@@ -66,265 +66,347 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Ranks & Progression",
+        "Ryō Farming",
+        "All Codes"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Learn the opening loop: pick a job, earn your first Ryō, and build a stable routine.",
+          "href": "/guide/shogun-s-reign-beginner-guide"
         },
         {
           "badge": "Updated",
           "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "description": "Working Shogun's Reign codes with rewards and redeem steps before they expire.",
+          "href": "/codes/shogun-s-reign-codes"
+        },
+        {
+          "badge": "Popular",
+          "title": "Ranks & Progression",
+          "description": "Every rank from commoner to Shogun and what each tier unlocks along the way.",
+          "href": "/progression/shogun-s-reign-ranks"
+        },
+        {
+          "badge": "Popular",
+          "title": "Best Jobs to Pick",
+          "description": "Compare Farmer, Merchant, Artisan, and Attendant playstyles and income.",
+          "href": "/guide/shogun-s-reign-servant-guide"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Ryō Farming Guide",
+          "description": "The most reliable money routes for early, mid, and late progression.",
+          "href": "/progression/shogun-s-reign-ryo"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Crafting & Omamori",
+          "description": "Gather, refine, and craft charms, tools, and gear upgrades for your reign.",
+          "href": "/mechanics/shogun-s-reign-crafting"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Combat Basics",
+          "description": "Sword stance, positioning, and the core combat loop explained step by step.",
+          "href": "/combat/shogun-s-reign-combat"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Controls & Keybinds",
+          "description": "Default keyboard, mouse, and gamepad bindings plus rebinding tips.",
+          "href": "/controls/shogun-s-reign-controls"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Housing & Wardrobe",
+          "description": "Upgrade your residence and wardrobe to raise your standing in the world.",
+          "href": "/items/shogun-s-reign-clothes"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Shogun's Reign?",
       "paragraphs": [
-        "Shogun's Reign is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Shogun's Reign is an Edo-period Japan roleplay and progression game on Roblox. You start as a common laborer, earn Ryō through jobs and trade, build reputation, and climb the social hierarchy toward the ultimate title of Shogun.",
+        "Along the way you can master professions such as Farmer, Merchant, Artisan, and Attendant, craft charms and gear, improve your home, explore towns and shrines, and redeem codes for free rewards. Our wiki covers every system with step-by-step guides, data tables, and practical tips."
       ],
       "stats": [
-        {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
         {
           "label": "Platform",
           "value": "Roblox"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Roleplay & Life Sim"
         },
         {
           "label": "Visits",
-          "value": "12.6M+"
+          "value": "4.5M+"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Peak CCU",
+          "value": "9.6K"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Released",
+          "value": "July 2026"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Community",
+          "value": "449.5K+"
+        },
+        {
+          "label": "Updates",
+          "value": "Weekly"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Shogun's Reign Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master Edo-period Roblox roleplay with guides on jobs, ranks, Ryō farming, housing, the world map, active codes, and the latest updates.",
       "modules": [
         {
           "order": 1,
-          "name": "Shogun's Reign Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/shogun-s-reign-codes",
-          "displayType": "code-box",
+          "name": "Shogun's Reign Beginner Guide",
+          "description": "Follow the opening loop step by step: learn the basics, explore the map, earn your first Ryō, pick a job, and start climbing the social ladder.",
+          "href": "/guide/shogun-s-reign-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Lock in one dependable income source before you spend on anything else."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Secure a single defensible border so you only ever fight on one front."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Scout your nearest rival early so you can plan around their army."
+            },
+            {
+              "label": "4",
+              "detail": "Turn one neighbor friendly to remove a second front before it opens."
+            },
+            {
+              "label": "5",
+              "detail": "Hold a reserve so you can raise emergency troops or buy peace."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/shogun-s-reign-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Shogun's Reign Jobs",
+          "description": "Compare the Farmer, Merchant, Artisan, and Attendant professions — how each one earns money, what it costs to start, and which playstyle it suits.",
+          "href": "/guide/shogun-s-reign-servant-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Farmer",
+              "detail": "Tends fields and food production for a steady early Ryō stream."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Merchant",
+              "detail": "Trades goods between towns and profits from moving surplus."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Artisan",
+              "detail": "Crafts gear and building materials from gathered resources."
+            },
+            {
+              "label": "Attendant",
+              "detail": "Serves a lord's household for coin, access, and reputation."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/shogun-s-reign-tier-list",
+          "name": "Shogun's Reign Ranks",
+          "description": "See how the social ladder runs from common laborer to samurai, noble, and finally Shogun, and what each rank unlocks.",
+          "href": "/progression/shogun-s-reign-ranks",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Shogun / Regent — the top of the ladder, elite play and seasonal titles."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Daimyo / Warlord — consistency, meta knowledge, and leaderboard placement."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Samurai / Ronin — positioning, objective play, and role discipline."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Ashigaru / Retainer — basic controls, a simple economy, and early duels."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/shogun-s-reign-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Shogun's Reign Money Guide",
+          "description": "Learn how the Ryō economy works, where early income comes from, and how to turn farming, trade, and jobs into steady wealth.",
+          "href": "/progression/shogun-s-reign-ryo",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Battles",
+              "detail": "Skirmish and battle rewards pay well but swing with the outcome."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Quests",
+              "detail": "Objectives and quests give predictable one-time Ryō for early upgrades."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Holdings",
+              "detail": "Controlled territory produces recurring passive income as you expand."
+            },
+            {
+              "label": "Events",
+              "detail": "Limited-time events are the best window to stockpile a war chest."
+            },
+            {
+              "label": "Trading",
+              "detail": "Selling surplus turns dead assets into liquid Ryō on demand."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/shogun-s-reign-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Shogun's Reign Housing",
+          "description": "Build and improve your residence, add storage and shelter, and use your home as a base for roleplay and long-term progression.",
+          "href": "/mechanics/shogun-s-reign-crafting",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Build",
+              "detail": "Start with a simple shelter and expand only when income supports it."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Upgrade",
+              "detail": "Improve the rooms you use most instead of spreading materials thin."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Storage",
+              "detail": "Add storage early so gathered materials are not lost to overflow."
+            },
+            {
+              "label": "Status",
+              "detail": "A better residence raises your standing in roleplay and long-term play."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/shogun-s-reign-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Shogun's Reign Map",
+          "description": "Find the towns, villages, shrines, and roads that connect the world, and learn the fastest routes between them.",
+          "href": "/guide/shogun-s-reign-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Towns",
+              "detail": "Trade hubs where you sell goods, pick up quests, and meet other players."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Villages",
+              "detail": "Rural areas for farming, gathering, and cheaper early housing."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Shrines",
+              "detail": "Shrine NPCs gate charms, omamori recipes, and blessings."
+            },
+            {
+              "label": "Roads",
+              "detail": "Use roads to plan the fastest route between regions."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Shogun's Reign Codes",
+          "description": "Check the current working codes, what they reward, and how to redeem them before they expire.",
+          "href": "/codes/shogun-s-reign-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Case",
+              "detail": "Codes are case-sensitive, so copy them exactly as posted."
+            },
+            {
+              "label": "Settings",
+              "detail": "Redeem codes from the in-game settings menu — no purchase needed."
+            },
+            {
+              "label": "One-time",
+              "detail": "Most codes can only be redeemed once per account."
+            },
+            {
+              "label": "Expiry",
+              "detail": "Codes expire quietly, so redeem any timed boost right away."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Shogun's Reign Updates",
+          "description": "Track balance patches, new content, and seasonal events so returning players can catch up quickly.",
+          "href": "/guide/shogun-s-reign-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Balance and bug-fix patches can shift the best jobs and routes."
+            },
+            {
+              "label": "Content",
+              "detail": "New regions, jobs, and items arrive in larger content drops."
+            },
+            {
+              "label": "Events",
+              "detail": "Seasonal events add limited-time rewards and cosmetics."
+            },
+            {
+              "label": "Notes",
+              "detail": "Check the official Roblox page and community for patch notes."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Shogun's Reign.",
+      "title": "Shogun's Reign FAQ",
+      "description": "Quick answers to the most common Shogun's Reign questions.",
       "items": [
         {
           "question": "What is Shogun's Reign?",
-          "answer": "Shogun's Reign is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Shogun's Reign is an Edo-period Japan roleplay and progression game on Roblox. You earn Ryō, take on jobs, build reputation, and climb the social ladder from common laborer to Shogun."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Shogun's Reign free to play?",
+          "answer": "Yes. Shogun's Reign is free to play on Roblox — you can earn Ryō, level up jobs, and climb the ranks without spending anything."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do I earn Ryō fast in Shogun's Reign?",
+          "answer": "Shogun's Reign rewards steady work: pick a job that matches your playtime, farm or trade consistently, and reinvest early Ryō into upgrades that raise your income."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do Shogun's Reign ranks work?",
+          "answer": "Shogun's Reign ranks run from common laborer to samurai, noble, and finally Shogun. Each tier unlocks new duties, cosmetics, and access, and progress carries across sessions."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Do Shogun's Reign codes expire?",
+          "answer": "Yes. Shogun's Reign codes are promotional and expire quietly, so redeem any working code as soon as you find it — timed boosts especially."
+        },
+        {
+          "question": "Which job should beginners pick in Shogun's Reign?",
+          "answer": "New players should start with Farmer or Attendant in Shogun's Reign for low-cost, reliable Ryō, then branch into Merchant or Artisan once they understand the economy."
         }
       ]
     },
