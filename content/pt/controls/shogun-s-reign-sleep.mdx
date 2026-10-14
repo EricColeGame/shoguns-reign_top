@@ -1,123 +1,89 @@
 export const metadata = {
-  title: "Guia do Controle de Sono de Shogun's Reign: Descanse, Salve o Progresso e Domine os Comandos",
-  description: "Aprenda como funciona o controle de sono de Shogun's Reign, quando descansar e como corrigir bugs comuns de sono para nunca mais perder progresso.",
+  title: "Reinado do Shogun: Um Guia Prático para Subir no Japão Edo",
+  description: "Um guia realista sobre Shogun's Reign no Roblox: recursos verificados, o que guias de terceiros relatam e o que simplesmente não está documentado.",
   category: "controls",
-  date: "2026-10-07",
-}
+  date: "2026-10-14",
+};
 
-## Por Que o Controle de Sono de Shogun's Reign Importa Mais do Que Você Pensa
+Se você pesquisou sobre Shogun's Reign, provavelmente encontrou o mesmo problema que a maioria dos novos jogadores enfrenta: muitos conselhos confiantes, mas pouquíssimos com fontes. Isso importa, porque Shogun's Reign é um jogo de progressão. Seja cultivando arroz para seu primeiro Ryō ou buscando um título, a diferença entre informação verificada e suposições esperançosas é a diferença entre progresso constante e uma noite desperdiçada.
 
-Poucas mecânicas em Shogun's Reign punem a impaciência com mais força do que o descanso. Você pode vencer uma luta difícil, expandir seu domínio e ainda ver a sessão desmoronar porque nunca aprendeu o controle de sono de Shogun's Reign — o comando que consolida seu progresso e redefine a condição do seu personagem. A mecânica de sono de Shogun's Reign importa porque é a dobradiça silenciosa entre uma sessão produtiva e uma sessão desperdiçada: ignore-a e você continua grindando com stamina esgotada e salvamentos frágeis; domine-a e cada hora que você joga se multiplica.
+Este guia é deliberadamente dividido em três níveis: o que o desenvolvedor realmente anuncia, o que jogadores de terceiros relatam e o que ninguém documentou. Qualquer coisa que caia no terceiro grupo é sinalizada como tal, em vez de preenchida com números inventados.
 
-Este guia aborda onde o comando de sono fica em cada esquema de controle, como a transição de descanso é resolvida, quais erros causam os bugs de sono mais comuns e como montar uma rotina de descanso que se encaixe no seu jeito de jogar. Tudo aqui foi escrito para jogadores que querem menos surpresas, não mais lore.
+## O Que a Página Oficial Realmente Confirma
 
-A maioria dos jogadores trata o descanso como tempo morto, algo para encaixar quando nada mais está acontecendo. Essa visão é invertida. O sono é o momento em que o jogo grava suas decisões na memória — literalmente, na maioria das builds — então tratá-lo como um controle que você domina de propósito compensa mais do que espremer uma luta extra em uma sessão.
+Shogun's Reign é uma experiência do Roblox listada sob o place ID 106568491289620, criada pelo grupo criador Shogun's Reign. O registro oficial mostra que o lugar foi criado em 2026-07-25 e atualizado pela última vez em 2026-10-13, com aproximadamente 7,3 milhões de visitas e cerca de 3.300 jogadores online no momento da consulta. Essa combinação de uma data de criação recente com uma base de jogadores grande e ativa já diz algo útil antes mesmo de você carregar o jogo: ele é jovem, está sendo atualizado e está cheio.
 
-## Onde o Comando de Sono Fica em Cada Esquema de Controle
+A descrição oficial é a autoridade sobre o que o jogo é. Ela anuncia:
 
-O sono em Shogun's Reign quase sempre é uma ação contextual, e não uma tecla de atalho independente. Isso significa que o comando só dispara quando o jogo decide que você está em um lugar válido e não está preso em combate, diálogo ou cutscene.
+- Agricultura e trabalho como o caminho para seu primeiro Ryō
+- Cidades, vilarejos, santuários, propriedades e estradas para explorar
+- Um sistema de profissões para dominar
+- Um sistema de reputação
+- Patentes que sobem até Shogun
+- Competição por autoridade, com uma única posição de Shogun
 
-| Esquema de controle | Como o sono geralmente é acionado | Como confirmar seu mapeamento |
-|---|---|---|
-| Teclado e mouse | Prompt de interação enquanto você está dentro de uma zona de descanso | Abra Configurações → Controles e verifique a entrada de Interação/Descanso |
-| Gamepad | Prompt de botão de face perto de cama ou de um marcador de descanso | Siga o prompt na tela; remapeie se houver conflito |
-| Tela sensível ao toque | Toque e segure o ícone de sono no HUD | Use o editor de layout para reposicionar ou redimensionar o ícone |
-| Portátil ou streaming | Espelha o layout de controle que você usou por último | Verifique os mapeamentos de novo após trocar de dispositivo |
+Tudo nessa lista é seguro para se planejar. Tudo que não está nessa lista é onde os jogadores começam a adivinhar. Você pode ler a listagem oficial completa aqui: https://www.roblox.com/games/106568491289620/Shoguns-Reign.
 
-Trate qualquer lista de teclas que encontrar online — incluindo esta — como ponto de partida, não como evangelho. Os mapeamentos mudam entre plataformas e podem ser remapeados pelo jogador, então o único mapeamento que importa é o que aparece no seu próprio menu de controles. Se o prompt sumir depois de uma atualização, esse menu é o primeiro lugar a checar.
+## O Loop Central: Ryō, Reputação, Patente
 
-Quatro regras se aplicam ao comando de sono independentemente da plataforma:
+O loop anunciado é refrescantemente legível. Você chega com quase nada, ganha Ryō através de agricultura, trabalho e negociações, e converte esse dinheiro e esforço em melhor posição. Reputação e patente são as moedas de longo prazo; Ryō é a de curto prazo.
 
-- **Você precisa estar parado.** Entrada de movimento durante a transição muitas vezes cancela.
-- **Você precisa estar em uma zona válida.** Cama, uma estalagem ou um marcador de descanso designado.
-- **Você precisa estar fora de combate.** Inimigos por perto bloqueiam o prompt completamente.
-- **Você precisa confirmar.** A maioria das builds mostra um prompt ou cronômetro antes de o descanso ser efetivado.
+O que a página oficial não faz é publicar taxas de pagamento. Ela não diz quanto uma determinada tarefa paga, quanta reputação você precisa para qualquer patente específica, ou quanto tempo a escalada leva. Guias de terceiros frequentemente apresentam esses valores como números fixos. Trate tais números como observações de um patch específico, não como documentação, e verifique novamente no jogo após qualquer atualização.
 
-## Como a Mecânica de Sono de Shogun's Reign Realmente Funciona
+| Verificado em fontes oficiais | Não documentado oficialmente |
+|---|---|
+| Agricultura e trabalho rendem Ryō | Taxas de pagamento específicas de Ryō |
+| Profissões podem ser dominadas | A lista completa de profissões |
+| Reputação afeta posição | Limiares de reputação |
+| Patentes vão até Shogun | Requisitos por patente |
+| Competição por autoridade | Regras de seleção para Shogun |
 
-Por baixo do capô, o sono é uma transição de estado com três verificações: local, ameaça e tempo. O jogo confirma que você está em uma zona de descanso válida, confirma que nenhum inimigo está engajado, então avança o relógio do jogo e aplica recuperação. Em muitas builds, ele também grava um autosave, e é por isso que jogadores experientes dormem antes de fechar o jogo, não depois.
+Se você quer uma resposta confiável para qualquer item da coluna da direita, o caminho mais rápido é perguntar no jogo ou verificar a página oficial após uma atualização, já que o desenvolvedor pode mudar esses valores sem aviso.
 
-### O Que um Descanso Completo Normalmente Restaura
+## Escolhendo o Que Fazer Primeiro
 
-| Recurso | Efeito após dormir | Observações |
-|---|---|---|
-| Stamina | Recarregada ao máximo | O principal motivo para descansar antes de uma longa jornada |
-| Vida | Restaurada ao longo da animação | Recuperação parcial em algumas builds |
-| Buff de foco ou alerta | Bônus temporário | Duração varia conforme a qualidade do descanso |
-| Relógio do jogo | Avança várias horas | Útil para eventos com tempo limitado |
-| Arquivo de save | Autosave na maioria das builds | Verifique se o autosave está ativado |
+Como os requisitos de patente não estão documentados, a abordagem inicial inteligente é amplitude, não otimização. Experimentar várias formas de trabalho ensina quais você consegue realizar de forma confiável, como o ambiente reage e onde outros jogadores se concentram. Também evita que você se comprometa com um grind que foi silenciosamente rebalanceado.
 
-### Quando Dormir e Quando Continuar
+Prática de jogadores, não mecânicas documentadas: muitos jogadores tratam o primeiro trecho como um passeio em vez de um trabalho. Caminhe pelas estradas, observe as cidades e santuários, e note quais áreas parecem movimentadas. Áreas movimentadas tendem a ser onde negociações acontecem e onde interações que constroem reputação ocorrem, mas isso é um padrão da comunidade, não uma regra que o desenvolvedor publicou.
 
-| Situação | Ação recomendada | Por que ajuda |
-|---|---|---|
-| Stamina baixa antes de tentar um chefe | Durma primeiro | Você entra na luta com capacidade total |
-| No meio de uma missão com cronômetro correndo | Continue | Dormir pode avançar o relógio além do prazo |
-| Depois de um upgrade ou compra importante | Durma para consolidar o progresso | Trava a mudança no seu save |
-| Mortes repetidas em uma área | Durma, depois mude a abordagem | Reinicia seu modelo mental e seus recursos |
-| Prestes a sair do jogo | Durma, depois saia | Reduz o risco de perder progresso recente |
+Depois de ter uma noção do mapa, focar em uma profissão faz sentido. A descrição oficial promete que profissões podem ser dominadas, então especializar-se é um caminho suportado. Só não diz a lista, o custo ou o retorno.
 
-## Problemas Comuns de Sono em Shogun's Reign e Correções
+## Etiqueta de Roleplay em um Cenário Edo
 
-Relatos da comunidade se concentram em um pequeno conjunto de problemas recorrentes. Nenhum deles é misterioso depois que você sabe o que os dispara.
+Shogun's Reign é descrito como uma experiência de roleplay e progressão, o que significa que a camada social importa tanto quanto os números. A etiqueta aqui é convenção dos jogadores, não mecânicas documentadas, mas ela molda a rapidez com que você é incluído.
 
-| Sintoma | Causa provável | Correção |
-|---|---|---|
-| Prompt de sono nunca aparece | Você não está dentro de uma zona de descanso válida | Vá para uma cama, estalagem ou ponto de descanso marcado |
-| A animação começa e depois cancela | Entrada de movimento ou ataque durante a transição | Solte todos os comandos e espere o prompt terminar |
-| Personagem acorda imediatamente | Inimigo por perto ou estado de missão ativo | Limpe a área ou avance a missão primeiro |
-| Progresso não salvo após dormir | Autosave desativado ou problema de armazenamento | Ative o autosave e verifique o espaço livre de armazenamento |
-| Comando de sono sem resposta | Mapeamento remapeado ou em conflito | Redefina os controles para o padrão, depois remapeie com cuidado |
+Alguns hábitos amplamente usados:
 
-A experiência dos jogadores adiciona algumas notas práticas que nenhuma nota de patch vai contar. Se você dormir em uma zona que não deixou totalmente segura, pode acordar com uma situação diferente — isso é comportamento intencional, não um bug. Se dormir enquanto um objetivo cronometrado está ativo, espere que o cronômetro continue correndo. E se estiver jogando em um portátil depois de uma sessão na nuvem, verifique seus mapeamentos de novo; o mapa de entrada às vezes segue o último dispositivo, e não o atual.
+- Faça uma reverência ao entrar no espaço de alguém, e espere ser abordado por jogadores de patente superior antes de falar longamente.
+- Mantenha conversas fora do personagem claramente separadas da fala no personagem para que as cenas não sejam interrompidas.
+- Pergunte antes de tocar na propriedade, barraca ou espaço de trabalho de outro jogador.
+- Não presuma que um título lhe dá autoridade sobre uma cena; pergunte quem está conduzindo.
+- Seja paciente com novatos, já que o jogo é novo e a população é grande.
 
-## Sono vs. Outras Opções de Recuperação
+Nada disso é imposto por um livro de regras que você possa ler. É simplesmente como muitos jogadores se comportam, e acompanhar isso tende a reduzir atritos.
 
-Dormir não é a única forma de recuperar, e saber quando usar algo mais barato economiza tempo de verdade.
+## Subindo em Direção ao Shogun
 
-| Método de recuperação | Custo de tempo | O que restaura | Melhor uso |
-|---|---|---|---|
-| Sono completo | Avança o relógio várias horas | Stamina, vida, buffs, save | Antes de lutas importantes e antes de sair |
-| Descanso curto ou meditação | Mínimo | Stamina parcial | Para completar entre encontros curtos |
-| Comida e bebida | Instantâneo | Stamina e buffs temporários | No meio da exploração quando você não consegue chegar a uma zona de descanso |
-| Descanso em santuário ou zona segura | Pequeno | Recuperação parcial e um ponto seguro | Definir um local de respawn confiável |
-| Ignorar recuperação | Nenhum | Nada | Quase nunca vale a pena |
+A ambição principal é explícita: subir de patente, acumular reputação e competir por uma única posição de Shogun. Essa escassez é o design. Há um único assento, o que significa que o topo da escada é inerentemente disputado em vez de cooperativo.
 
-A troca é direta: dormir oferece o reset mais completo, mas custa mais tempo de jogo. Se seu objetivo atual é sensível ao tempo, uma refeição ou um descanso curto é o melhor controle a usar. Se não for, dormir quase sempre é a jogada mais forte, porque também consolida seu save.
+O que não está documentado é como a posição muda de mãos, se é decidida por patente, reputação, votação, evento ou algo completamente diferente. Guias de terceiros ocasionalmente afirmam saber, mas a listagem oficial não descreve isso. Se a corrida pelo Shogun é seu objetivo, o conselho honesto é construir riqueza e reputação de forma constante enquanto acompanha as notas de atualização oficiais, porque as regras em torno da autoridade podem mudar em um jogo tão jovem quanto este.
 
-## Montando uma Rotina de Descanso de Acordo com a Duração da Sua Sessão
+## Perguntas Frequentes
 
-O melhor hábito de sono depende de quanto tempo você realmente senta para jogar. Use isto como estrutura inicial e ajuste ao seu ritmo.
+**Shogun's Reign é pay-to-win?**
+A descrição oficial não menciona nenhum detalhe de monetização. Não há nada na página documentando vantagens pagas, e nenhum sistema de códigos está documentado também.
 
-| Duração da sessão | Plano de sono | Retorno |
-|---|---|---|
-| 15–20 minutos | Um descanso no começo, um antes de sair | Entrada limpa e saída limpa |
-| 45–60 minutos | Descanse antes de cada encontro importante | Menos mortes evitáveis |
-| Duas horas ou mais | Descanse em quebras naturais de capítulo ou missão | O progresso fica consolidado se algo travar |
-| Última sessão do dia | Durma, depois saia | Sua última hora de trabalho está salva |
+**Existem códigos promocionais?**
+A página oficial não documenta nenhum. Qualquer site que afirme ter códigos ativos para Shogun's Reign está afirmando algo que o desenvolvedor não publicou.
 
-Alguns hábitos separam jogadores que raramente perdem progresso daqueles que perdem o tempo todo:
+**Quais são as profissões?**
+Não documentadas oficialmente. A descrição confirma que profissões existem e podem ser dominadas, mas a listagem oficial não as lista. Verifique no jogo.
 
-- **Durma antes de sair do jogo, não depois.** O save acontece durante o descanso, não quando você fecha o jogo.
-- **Mantenha uma zona de descanso na sua rota principal.** Um pequeno desvio é melhor que um longo retorno.
-- **Observe o relógio antes de descansar.** Se um evento cronometrado estiver pendente, dormir pode passar do prazo.
-- **Descanse após grandes decisões.** Compras, upgrades e entregas de missão valem a pena consolidar.
-- **Não durma no meio da luta.** O prompt não vai disparar, e você desperdiça a tentativa.
+**Quanto Ryō a agricultura paga?**
+Nenhum valor oficial é publicado. Qualquer número preciso que você veja é uma observação de terceiros que pode estar desatualizada.
 
-Para orientações gerais de layout de controles e convenções mais amplas de input entre gêneros, o [hub de guias de jogos da IGN](https://www.ign.com/) é um ponto de referência confiável quando você quer comparar como outros títulos lidam com ações contextuais.
+**Existe um sistema de moradia?**
+Não documentado na página oficial. A descrição menciona propriedades para explorar, mas não descreve moradia para jogadores.
 
-## FAQ: Perguntas sobre o Sono em Shogun's Reign
-
-**Existe um botão dedicado de sono em Shogun's Reign?**
-Na maioria das builds, não. A ação de sono de Shogun's Reign é contextual — ela aparece como um prompt quando você está em uma zona de descanso válida e nada hostil está engajado. Verifique seu menu de controles para a entrada de Interação ou Descanso, já que é esse o mapeamento que o prompt usa.
-
-**Você pode dormir em qualquer lugar do mapa?**
-Em geral, não. O descanso é limitado a locais designados, como camas, estalagens ou pontos seguros marcados. Relatos da comunidade sugerem que o prompt é deliberadamente restrito para que dormir continue sendo uma decisão significativa, e não um reset grátis.
-
-**Dormir salva o seu jogo?**
-Na maioria das builds, sim, desde que o autosave esteja ativado. É exatamente por isso que o controle de sono de Shogun's Reign vale a pena aprender cedo: ele também funciona como seu ponto de save mais confiável. Se você notar que o progresso não fica após um descanso, verifique primeiro as configurações de autosave e o armazenamento disponível.
-
-**Por que meu personagem acorda imediatamente depois de dormir?**
-As duas causas mais comuns são um inimigo por perto e um estado de missão ativo que bloqueia o descanso. Limpe a área, conclua ou avance o objetivo, depois tente de novo. Se o problema persistir em uma zona que você já deixou segura, redefina seus controles para o padrão — um mapeamento em conflito pode interromper a transição.
-
-Dominar o descanso não é glamouroso, mas é um dos controles de maior valor no jogo. Durma de propósito, durma antes de sair, e a mecânica de sono de Shogun's Reign deixa de ser um detalhe de fundo e passa a ser o motivo pelo qual seu progresso sobrevive.
+**Como me torno Shogun?**
+A página oficial confirma que uma patente de Shogun existe e que a autoridade é disputada. Os requisitos exatos não estão documentados. Verifique no jogo.

@@ -1,9 +1,9 @@
 {
   "site": {
-    "name": "Shogun's Reign Wiki",
+    "name": "Wiki Shogun's Reign",
     "shortName": "Shogun's Reign",
-    "tagline": "Guias de RPG do Japão Edo, patentes, profissões e códigos",
-    "description": "A Shogun's Reign Wiki reúne guias de RPG do período Edo no Roblox, patentes, profissões, farm de Ryō, combate, moradia, progressão, códigos, atualizações e dicas para chegar a Shogun.",
+    "tagline": "Guias, Rankings, Profissões e Códigos do Roleplay no Japão Edo",
+    "description": "A Wiki Shogun's Reign cobre guias de roleplay do Japão Edo no Roblox, rankings, profissões, cultivo de Ryō, combate, moradia, progressão, códigos, atualizações e dicas para chegar a Shogun.",
     "legalNotice": "Wiki de fãs não oficial. Feita por jogadores, para jogadores."
   },
   "nav": {
@@ -20,117 +20,117 @@
   },
   "home": {
     "meta": {
-      "title": "Shogun's Reign Wiki - Códigos, patentes e guias",
-      "description": "A Shogun's Reign Wiki reúne guias de RPG do período Edo no Roblox, patentes, profissões, farm de Ryō, combate, moradia, progressão, códigos, atualizações e dicas para chegar a Shogun."
+      "title": "Wiki Shogun's Reign - Códigos, Rankings e Guias",
+      "description": "A Wiki Shogun's Reign cobre guias de roleplay do Japão Edo no Roblox, rankings, profissões, cultivo de Ryō, combate, moradia, progressão, códigos, atualizações e dicas para chegar a Shogun."
     },
     "hero": {
-      "eyebrow": "RPG e progressão no Japão Edo",
-      "title": "Shogun's Reign Wiki",
-      "description": "Explore uma experiência de RPG no Roblox ambientada no período Edo, na qual você ganha Ryō, domina profissões, constrói reputação, sobe na hierarquia social e busca o título máximo de Shogun.",
+      "eyebrow": "Roleplay e Progressão no Japão Edo",
+      "title": "Wiki Shogun's Reign",
+      "description": "Explore uma experiência de roleplay do período Edo no Roblox, onde você ganha Ryō, domina profissões, constrói reputação, sobe na hierarquia social e busca o título supremo de Shogun.",
       "stats": [
-        "4,5M+ visitas totais",
-        "9,6K CCU de pico",
-        "Lançamento em julho de 2026",
-        "Atualizações semanais"
+        "Cerca de 7,3 mi de Visitas Totais",
+        "Grupo Criador: Shogun's Reign",
+        "Lugar Criado: 25 de julho de 2026",
+        "Atualizado: 13 de outubro de 2026"
       ],
-      "primaryCta": "Guia para iniciantes",
-      "secondaryCta": "Patentes e profissões",
+      "primaryCta": "Guia para Iniciantes",
+      "secondaryCta": "Rankings e Profissões",
       "tertiaryCta": "Jogar no Roblox",
-      "videoLabel": "Guia de gameplay"
+      "videoLabel": "Guia de Gameplay"
     },
     "updates": {
-      "title": "Últimas atualizações",
-      "browse": "Ver todos os guias",
-      "viewAll": "Ver tudo"
+      "title": "Últimas Atualizações",
+      "browse": "Navegar por Todos os Guias",
+      "viewAll": "Ver Tudo"
     },
     "start": {
-      "eyebrow": "Comece aqui",
-      "title": "Sua jornada em Shogun's Reign",
+      "eyebrow": "Comece Aqui",
+      "title": "Sua Jornada em Shogun's Reign",
       "cards": [
         {
           "number": "1",
-          "title": "Guia para iniciantes",
+          "title": "Guia para Iniciantes",
           "description": "Comece seu reinado do jeito certo: aprenda os controles, seus primeiros trabalhos e os objetivos iniciais que mantêm você avançando."
         },
         {
           "number": "2",
-          "title": "Nivelamento mais rápido",
-          "description": "Suba na escada de patentes rapidamente com as rotas e os hábitos de progressão inicial mais eficientes."
+          "title": "Nivelamento Mais Rápido",
+          "description": "Suba na escada de rankings rapidamente com as rotas de progressão inicial e hábitos mais eficientes."
         },
         {
           "number": "3",
-          "title": "Melhor farm de Ryō",
-          "description": "Acumule Ryō rápido com as rotas de farm, comércio e trabalho mais confiáveis para cada fase."
+          "title": "Melhor Cultivo de Ryō",
+          "description": "Acumule Ryō rápido com as rotas de cultivo, comércio e trabalho mais confiáveis para cada estágio."
         },
         {
           "number": "4",
-          "title": "Todos os códigos",
-          "description": "Resgate todos os códigos ativos para ganhar Ryō grátis, melhorias e cosméticos antes que expirem."
+          "title": "Todos os Códigos",
+          "description": "Resgate todos os códigos funcionais para Ryō grátis, boosts e cosméticos antes que expirem."
         }
       ]
     },
     "popular": {
-      "eyebrow": "Páginas populares",
-      "title": "Em alta agora",
+      "eyebrow": "Páginas Populares",
+      "title": "Em Alta Agora",
       "quickLinks": [
-        "Guia para iniciantes",
-        "Patentes e progressão",
-        "Farm de Ryō",
-        "Todos os códigos"
+        "Guia para Iniciantes",
+        "Rankings e Progressão",
+        "Cultivo de Ryō",
+        "Todos os Códigos"
       ],
       "cards": [
         {
           "badge": "Iniciante",
-          "title": "Guia para iniciantes",
-          "description": "Aprenda o ciclo inicial: escolha um trabalho, ganhe seu primeiro Ryō e monte uma rotina estável.",
+          "title": "Guia para Iniciantes",
+          "description": "Aprenda o ciclo inicial: escolha um trabalho, ganhe seu primeiro Ryō e construa uma rotina estável.",
           "href": "/guide/shogun-s-reign-beginner-guide"
         },
         {
           "badge": "Atualizado",
-          "title": "Códigos ativos",
-          "description": "Códigos de Shogun's Reign que funcionam, com recompensas e passos de resgate antes de expirarem.",
+          "title": "Códigos Ativos",
+          "description": "Códigos funcionais de Shogun's Reign com recompensas e passos de resgate antes que expirem.",
           "href": "/codes/shogun-s-reign-codes"
         },
         {
           "badge": "Popular",
-          "title": "Patentes e progressão",
-          "description": "Todas as patentes, de plebeu a Shogun, e o que cada nível desbloqueia pelo caminho.",
+          "title": "Rankings e Progressão",
+          "description": "Todos os rankings, de plebeu a Shogun, e o que cada nível desbloqueia ao longo do caminho.",
           "href": "/progression/shogun-s-reign-ranks"
         },
         {
           "badge": "Popular",
-          "title": "Melhores trabalhos para escolher",
-          "description": "Compare os estilos de jogo e a renda de Fazendeiro, Mercador, Artesão e Serviçal.",
+          "title": "Melhores Trabalhos para Escolher",
+          "description": "Compare os estilos de jogo e renda de Fazendeiro, Mercador, Artesão e Atendente.",
           "href": "/guide/shogun-s-reign-servant-guide"
         },
         {
           "badge": "Atualizado",
-          "title": "Guia de farm de Ryō",
-          "description": "As rotas de dinheiro mais confiáveis para a progressão inicial, intermediária e avançada.",
+          "title": "Guia de Cultivo de Ryō",
+          "description": "As rotas de dinheiro mais confiáveis para progressão inicial, intermediária e avançada.",
           "href": "/progression/shogun-s-reign-ryo"
         },
         {
           "badge": "Novo",
-          "title": "Criação e omamori",
-          "description": "Colete, refine e crie amuletos, ferramentas e melhorias de equipamento para o seu reinado.",
+          "title": "Criação e Omamori",
+          "description": "Colete, refine e crie amuletos, ferramentas e melhorias de equipamento para seu reinado.",
           "href": "/mechanics/shogun-s-reign-crafting"
         },
         {
           "badge": "Popular",
-          "title": "Fundamentos do combate",
+          "title": "Noções Básicas de Combate",
           "description": "Postura de espada, posicionamento e o ciclo central de combate explicados passo a passo.",
           "href": "/combat/shogun-s-reign-combat"
         },
         {
           "badge": "Novo",
-          "title": "Controles e atalhos",
-          "description": "Teclas padrão de teclado, mouse e controle, além de dicas para reconfigurá-las.",
+          "title": "Controles e Atalhos",
+          "description": "Configurações padrão de teclado, mouse e gamepad, além de dicas para reconfigurar.",
           "href": "/controls/shogun-s-reign-controls"
         },
         {
           "badge": "Novo",
-          "title": "Moradia e guarda-roupa",
-          "description": "Melhore sua residência e seu guarda-roupa para elevar sua posição no mundo.",
+          "title": "Moradia e Guarda-Roupa",
+          "description": "Melhore sua residência e guarda-roupa para elevar sua posição no mundo.",
           "href": "/items/shogun-s-reign-clothes"
         }
       ]
@@ -138,8 +138,8 @@
     "aboutGame": {
       "title": "O que é Shogun's Reign?",
       "paragraphs": [
-        "Shogun's Reign é um jogo de RPG e progressão ambientado no Japão do período Edo no Roblox. Você começa como trabalhador comum, ganha Ryō com trabalhos e comércio, constrói reputação e sobe na hierarquia social rumo ao título máximo de Shogun.",
-        "Ao longo do caminho você pode dominar profissões como Fazendeiro, Mercador, Artesão e Serviçal, criar amuletos e equipamentos, melhorar sua casa, explorar cidades e santuários, e resgatar códigos para recompensas grátis. Nossa wiki cobre todos os sistemas com guias passo a passo, tabelas de dados e dicas práticas."
+        "Shogun's Reign é um jogo de roleplay e progressão ambientado no Japão do período Edo no Roblox. Você começa como um trabalhador comum, ganha Ryō através de trabalhos e comércio, constrói reputação e sobe na hierarquia social em busca do título supremo de Shogun.",
+        "Ao longo do caminho, você pode dominar profissões como Fazendeiro, Mercador, Artesão e Atendente, criar amuletos e equipamentos, melhorar sua casa, explorar cidades e santuários, e resgatar códigos para recompensas grátis. Nossa wiki cobre todos os sistemas com guias passo a passo, tabelas de dados e dicas práticas."
       ],
       "stats": [
         {
@@ -148,68 +148,68 @@
         },
         {
           "label": "Gênero",
-          "value": "RPG e simulação de vida"
+          "value": "Roleplay e Simulação de Vida"
         },
         {
           "label": "Visitas",
-          "value": "4,5M+"
+          "value": "Cerca de 7,3 mi"
         },
         {
-          "label": "CCU de pico",
-          "value": "9,6K"
+          "label": "Pico de CCU",
+          "value": "Não documentado"
         },
         {
           "label": "Lançamento",
-          "value": "Julho de 2026"
+          "value": "Lugar criado em 25 de julho de 2026"
         },
         {
           "label": "Comunidade",
-          "value": "449,5K+"
+          "value": "Não documentado"
         },
         {
           "label": "Atualizações",
-          "value": "Semanal"
+          "value": "Veja a página oficial no Roblox"
         }
       ],
-      "cta": "Explorar todos os guias"
+      "cta": "Explorar Todos os Guias"
     },
     "explore": {
-      "title": "Explore a Shogun's Reign Wiki",
-      "description": "Domine o RPG do período Edo no Roblox com guias sobre trabalhos, patentes, farm de Ryō, moradia, o mapa do mundo, códigos ativos e as últimas atualizações.",
+      "title": "Explore a Wiki Shogun's Reign",
+      "description": "Domine o roleplay do período Edo no Roblox com guias sobre trabalhos, rankings, cultivo de Ryō, moradia, mapa do mundo, códigos ativos e as últimas atualizações.",
       "modules": [
         {
           "order": 1,
-          "name": "Guia para iniciantes de Shogun's Reign",
+          "name": "Guia para Iniciantes de Shogun's Reign",
           "description": "Siga o ciclo inicial passo a passo: aprenda o básico, explore o mapa, ganhe seu primeiro Ryō, escolha um trabalho e comece a subir na escada social.",
           "href": "/guide/shogun-s-reign-beginner-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Garanta uma fonte de renda confiável antes de gastar com qualquer outra coisa."
+              "detail": "Aprenda primeiro os controles básicos e a movimentação."
             },
             {
               "label": "2",
-              "detail": "Proteja uma única fronteira defensável para lutar sempre em uma só frente."
+              "detail": "Comece com agricultura ou trabalho braçal para ganhar seu primeiro Ryō."
             },
             {
               "label": "3",
-              "detail": "Explore cedo o rival mais próximo para planejar em torno do exército dele."
+              "detail": "Explore a cidade inicial e as estradas próximas."
             },
             {
               "label": "4",
-              "detail": "Faça amizade com um vizinho para eliminar uma segunda frente antes que ela se abra."
+              "detail": "Escolha uma profissão que combine com seu estilo de jogo."
             },
             {
               "label": "5",
-              "detail": "Mantenha uma reserva para levantar tropas de emergência ou comprar a paz."
+              "detail": "Construa reputação completando tarefas e comércios."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Trabalhos de Shogun's Reign",
-          "description": "Compare as profissões de Fazendeiro, Mercador, Artesão e Serviçal: como cada uma ganha dinheiro, quanto custa começar e a qual estilo de jogo ela combina.",
+          "name": "Trabalhos em Shogun's Reign",
+          "description": "Compare as profissões de Fazendeiro, Mercador, Artesão e Atendente — como cada uma ganha dinheiro, quanto custa começar e qual estilo de jogo combina.",
           "href": "/guide/shogun-s-reign-servant-guide",
           "displayType": "card-list",
           "highlights": [
@@ -219,86 +219,86 @@
             },
             {
               "label": "Mercador",
-              "detail": "Negocia mercadorias entre cidades e lucra movimentando o excedente."
+              "detail": "Negocia mercadorias entre cidades e lucra movimentando excedentes."
             },
             {
               "label": "Artesão",
-              "detail": "Fabrica equipamentos e materiais de construção a partir de recursos coletados."
+              "detail": "Cria equipamentos e materiais de construção a partir de recursos coletados."
             },
             {
-              "label": "Serviçal",
-              "detail": "Serve a casa de um senhor em troca de moedas, acesso e reputação."
+              "label": "Atendente",
+              "detail": "Serve a casa de um lorde por moedas, acesso e reputação."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Patentes de Shogun's Reign",
-          "description": "Veja como a escada social vai de trabalhador comum a samurai, nobre e, por fim, Shogun, e o que cada patente desbloqueia.",
+          "name": "Rankings de Shogun's Reign",
+          "description": "Veja como a escada social vai de trabalhador comum a samurai, nobre e, finalmente, Shogun, e o que cada ranking desbloqueia.",
           "href": "/progression/shogun-s-reign-ranks",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S",
-              "detail": "Shogun / Regente: o topo da escada, jogo de elite e títulos sazonais."
+              "label": "Alto",
+              "detail": "Shogun — a única posição máxima, disputada por todos os jogadores."
             },
             {
-              "label": "A",
-              "detail": "Daimyo / Senhor da guerra: consistência, conhecimento do meta e posição no ranking."
+              "label": "Alto",
+              "detail": "Nobre — rankings superiores com autoridade e acesso."
             },
             {
-              "label": "B",
-              "detail": "Samurai / Ronin: posicionamento, jogo por objetivos e disciplina de função."
+              "label": "Médio",
+              "detail": "Guerreiro — rankings e deveres focados em combate."
             },
             {
-              "label": "C",
-              "detail": "Ashigaru / Vassalo: controles básicos, uma economia simples e primeiros duelos."
+              "label": "Baixo",
+              "detail": "Servo — rankings iniciais com trabalho braçal e agricultura básicos."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Guia de dinheiro de Shogun's Reign",
-          "description": "Aprenda como funciona a economia do Ryō, de onde vêm os ganhos iniciais e como transformar farm, comércio e trabalhos em riqueza constante.",
+          "name": "Guia de Dinheiro em Shogun's Reign",
+          "description": "Aprenda como funciona a economia de Ryō, de onde vem a renda inicial e como transformar agricultura, comércio e trabalhos em riqueza constante.",
           "href": "/progression/shogun-s-reign-ryo",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "Batalhas",
-              "detail": "Recompensas de escaramuças e batalhas pagam bem, mas variam conforme o resultado."
+              "label": "Agricultura",
+              "detail": "Plante e colha para obter Ryō inicial confiável."
             },
             {
-              "label": "Missões",
-              "detail": "Objetivos e missões dão Ryō pontual e previsível para as primeiras melhorias."
-            },
-            {
-              "label": "Domínios",
-              "detail": "O território controlado gera renda passiva recorrente conforme você se expande."
-            },
-            {
-              "label": "Eventos",
-              "detail": "Eventos por tempo limitado são a melhor janela para acumular um fundo de guerra."
+              "label": "Trabalho",
+              "detail": "Assuma trabalhos manuais pelas cidades e vilas."
             },
             {
               "label": "Comércio",
-              "detail": "Vender o excedente transforma ativos parados em Ryō líquido na hora."
+              "detail": "Compre barato e venda caro entre assentamentos."
+            },
+            {
+              "label": "Profissões",
+              "detail": "Domine um ofício para aumentar sua renda ao longo do tempo."
+            },
+            {
+              "label": "Reputação",
+              "detail": "Construa prestígio para desbloquear melhores oportunidades."
             }
           ]
         },
         {
           "order": 5,
           "name": "Moradia em Shogun's Reign",
-          "description": "Construa e melhore sua residência, adicione armazenamento e abrigo, e use sua casa como base para o RPG e a progressão de longo prazo.",
+          "description": "Construa e melhore sua residência, adicione armazenamento e abrigo, e use sua casa como base para roleplay e progressão de longo prazo.",
           "href": "/mechanics/shogun-s-reign-crafting",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Construir",
-              "detail": "Comece com um abrigo simples e amplie só quando a renda permitir."
+              "detail": "Comece com um abrigo simples e expanda apenas quando a renda permitir."
             },
             {
               "label": "Melhorar",
-              "detail": "Melhore os cômodos que você mais usa em vez de espalhar os materiais."
+              "detail": "Melhore os cômodos que você mais usa em vez de espalhar materiais."
             },
             {
               "label": "Armazenamento",
@@ -306,49 +306,49 @@
             },
             {
               "label": "Status",
-              "detail": "Uma residência melhor eleva sua posição no RPG e no jogo de longo prazo."
+              "detail": "Uma residência melhor eleva sua posição no roleplay e no jogo de longo prazo."
             }
           ]
         },
         {
           "order": 6,
           "name": "Mapa de Shogun's Reign",
-          "description": "Encontre as cidades, aldeias, santuários e estradas que conectam o mundo, e aprenda as rotas mais rápidas entre eles.",
+          "description": "Encontre as cidades, vilas, santuários e estradas que conectam o mundo, e aprenda as rotas mais rápidas entre eles.",
           "href": "/guide/shogun-s-reign-guide",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Cidades",
-              "detail": "Centros de comércio onde você vende mercadorias, aceita missões e conhece outros jogadores."
+              "detail": "Centros comerciais onde você vende mercadorias, pega missões e conhece outros jogadores."
             },
             {
-              "label": "Aldeias",
-              "detail": "Áreas rurais para farm, coleta e moradia inicial mais barata."
+              "label": "Vilas",
+              "detail": "Áreas rurais para agricultura, coleta e moradia inicial mais barata."
             },
             {
               "label": "Santuários",
-              "detail": "Os NPCs dos santuários liberam amuletos, receitas de omamori e bênçãos."
+              "detail": "NPCs de santuário liberam amuletos, receitas de omamori e bênçãos."
             },
             {
               "label": "Estradas",
-              "detail": "Use as estradas para planejar a rota mais rápida entre as regiões."
+              "detail": "Use as estradas para planejar a rota mais rápida entre regiões."
             }
           ]
         },
         {
           "order": 7,
           "name": "Códigos de Shogun's Reign",
-          "description": "Confira os códigos ativos no momento, o que eles recompensam e como resgatá-los antes que expirem.",
+          "description": "Confira os códigos funcionais atuais, o que eles recompensam e como resgatá-los antes que expirem.",
           "href": "/codes/shogun-s-reign-codes",
           "displayType": "code-cards",
           "highlights": [
             {
               "label": "Maiúsculas",
-              "detail": "Os códigos diferenciam maiúsculas de minúsculas, então copie-os exatamente como foram publicados."
+              "detail": "Os códigos diferenciam maiúsculas de minúsculas, então copie exatamente como publicado."
             },
             {
               "label": "Configurações",
-              "detail": "Resgate os códigos no menu de configurações do jogo, sem precisar comprar nada."
+              "detail": "Resgate códigos pelo menu de configurações do jogo — sem necessidade de compra."
             },
             {
               "label": "Uso único",
@@ -356,24 +356,24 @@
             },
             {
               "label": "Expiração",
-              "detail": "Os códigos expiram sem aviso, então resgate qualquer melhoria temporária na hora."
+              "detail": "Os códigos expiram silenciosamente, então resgate qualquer boost temporário imediatamente."
             }
           ]
         },
         {
           "order": 8,
           "name": "Atualizações de Shogun's Reign",
-          "description": "Acompanhe patches de equilíbrio, conteúdo novo e eventos sazonais para que os jogadores que voltam se atualizem rápido.",
+          "description": "Acompanhe patches de balanceamento, novos conteúdos e eventos sazonais para que jogadores que retornam se atualizem rapidamente.",
           "href": "/guide/shogun-s-reign-tips",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Patches",
-              "detail": "Patches de equilíbrio e correção de bugs podem mudar os melhores trabalhos e rotas."
+              "detail": "Patches de balanceamento e correção de bugs podem mudar os melhores trabalhos e rotas."
             },
             {
               "label": "Conteúdo",
-              "detail": "Novas regiões, trabalhos e itens chegam em grandes lançamentos de conteúdo."
+              "detail": "Novas regiões, trabalhos e itens chegam em grandes atualizações de conteúdo."
             },
             {
               "label": "Eventos",
@@ -381,111 +381,111 @@
             },
             {
               "label": "Notas",
-              "detail": "Confira a página oficial do Roblox e a comunidade para ver as notas dos patches."
+              "detail": "Confira a página oficial no Roblox e a comunidade para notas de patch."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Perguntas frequentes de Shogun's Reign",
-      "description": "Respostas rápidas para as dúvidas mais comuns sobre Shogun's Reign.",
+      "title": "FAQ de Shogun's Reign",
+      "description": "Respostas rápidas para as perguntas mais comuns sobre Shogun's Reign.",
       "items": [
         {
           "question": "O que é Shogun's Reign?",
-          "answer": "Shogun's Reign é um jogo de RPG e progressão ambientado no Japão do período Edo no Roblox. Você ganha Ryō, aceita trabalhos, constrói reputação e sobe na escada social de trabalhador comum a Shogun."
+          "answer": "Shogun's Reign é um jogo de roleplay e progressão ambientado no Japão do período Edo no Roblox. Você ganha Ryō, assume trabalhos, constrói reputação e sobe na escada social de trabalhador comum a Shogun."
         },
         {
-          "question": "Shogun's Reign é grátis?",
-          "answer": "Sim. Shogun's Reign é grátis no Roblox: você pode ganhar Ryō, subir o nível dos trabalhos e subir de patente sem gastar nada."
+          "question": "Shogun's Reign é grátis para jogar?",
+          "answer": "Sim. Shogun's Reign é grátis para jogar no Roblox — você pode ganhar Ryō, subir de nível nos trabalhos e subir nos rankings sem gastar nada."
         },
         {
           "question": "Como ganho Ryō rápido em Shogun's Reign?",
-          "answer": "Shogun's Reign recompensa trabalho constante: escolha um trabalho que combine com seu tempo de jogo, faça farm ou comércio com regularidade e reinvista o Ryō inicial em melhorias que aumentem sua renda."
+          "answer": "Shogun's Reign recompensa trabalho constante: escolha um trabalho que combine com seu tempo de jogo, faça agricultura ou comércio de forma consistente e reinvista o Ryō inicial em melhorias que aumentem sua renda."
         },
         {
-          "question": "Como funcionam as patentes de Shogun's Reign?",
-          "answer": "As patentes de Shogun's Reign vão de trabalhador comum a samurai, nobre e, por fim, Shogun. Cada nível desbloqueia novas tarefas, cosméticos e acessos, e o progresso é mantido entre sessões."
+          "question": "Como funcionam os rankings de Shogun's Reign?",
+          "answer": "Os rankings de Shogun's Reign vão de trabalhador comum a samurai, nobre e, finalmente, Shogun. Cada nível desbloqueia novos deveres, cosméticos e acesso, e o progresso é mantido entre sessões."
         },
         {
           "question": "Os códigos de Shogun's Reign expiram?",
-          "answer": "Sim. Os códigos de Shogun's Reign são promocionais e expiram sem aviso, então resgate qualquer código ativo assim que encontrar, principalmente as melhorias temporárias."
+          "answer": "Sim. Os códigos de Shogun's Reign são promocionais e expiram silenciosamente, então resgate qualquer código funcional assim que encontrá-lo — especialmente boosts temporários."
         },
         {
           "question": "Qual trabalho os iniciantes devem escolher em Shogun's Reign?",
-          "answer": "Jogadores novos devem começar com Fazendeiro ou Serviçal em Shogun's Reign pelo Ryō barato e confiável, e depois partir para Mercador ou Artesão quando entenderem a economia."
+          "answer": "Novos jogadores devem começar como Fazendeiro ou Atendente em Shogun's Reign para obter Ryō de baixo custo e confiável, depois migrar para Mercador ou Artesão quando entenderem a economia."
         }
       ]
     },
     "finalCta": {
-      "title": "Pronto para dominar Shogun's Reign?",
-      "description": "Do seu primeiro Ryō ganho nos campos até assumir o xogunato, nossa wiki da comunidade cobre cada trabalho, patente e caminho de progressão com guias gratuitos e atualizados.",
-      "primary": "Leia o guia para iniciantes",
+      "title": "Pronto para Dominar Shogun's Reign?",
+      "description": "Do seu primeiro Ryō ganho nos campos até reivindicar o Shogunato, nossa wiki comunitária cobre cada trabalho, ranking e caminho de progressão com guias gratuitos e atualizados.",
+      "primary": "Ler o Guia para Iniciantes",
       "secondary": "Jogar no Roblox"
     }
   },
   "guide": {
-    "overviewTitle": "Guia de Shogun's Reign: como começar",
-    "overviewDescription": "Novo em Shogun's Reign? Comece aqui para ver tutoriais de iniciante, as funções de samurai e serviçal, e os primeiros passos que preparam um reinado forte."
+    "overviewTitle": "Guia de Shogun's Reign: Começando",
+    "overviewDescription": "Novo em Shogun's Reign? Comece aqui para tutoriais para iniciantes, papéis de samurai e servo, e os movimentos iniciais que preparam um reinado forte."
   },
   "progression": {
-    "overviewTitle": "Progressão em Shogun's Reign: patentes, Ryo e nobreza",
-    "overviewDescription": "Suba nas patentes de Shogun's Reign, faça farm de Ryo, consiga Documentos de Nobre e desbloqueie roupas extras conforme seu reinado cresce."
+    "overviewTitle": "Progressão em Shogun's Reign: Rankings, Ryo e Nobreza",
+    "overviewDescription": "Suba nos rankings de Shogun's Reign, cultive Ryo, ganhe Documentos de Nobreza e desbloqueie roupas extras conforme seu reinado cresce."
   },
   "mechanics": {
-    "overviewTitle": "Mecânicas de Shogun's Reign: criação, omamori e sobrevivência",
-    "overviewDescription": "Domine os sistemas de Shogun's Reign: criação, omamori, o médico, o frio, os banhos e os estilos de combate que moldam cada partida."
+    "overviewTitle": "Mecânicas de Shogun's Reign: Criação, Omamori e Sobrevivência",
+    "overviewDescription": "Domine os sistemas de Shogun's Reign: criação, omamori, o médico, frio, banhos e estilos de combate que moldam cada partida."
   },
   "combat": {
-    "overviewTitle": "Combate em Shogun's Reign: esgrima, clãs e torneios",
-    "overviewDescription": "Aprenda o combate de Shogun's Reign, a esgrima, a política de clãs, os duelos samurai e como vencer torneios."
+    "overviewTitle": "Combate em Shogun's Reign: Esgrima, Clãs e Torneios",
+    "overviewDescription": "Aprenda o combate de Shogun's Reign, esgrima, política de clãs, duelos de samurai e como vencer torneios."
   },
   "items": {
-    "overviewTitle": "Itens de Shogun's Reign: roupas, documentos e omamori",
-    "overviewDescription": "Todos os itens de Shogun's Reign explicados: guarda-chuvas, roupas, documentos, receitas de omamori e os equipamentos que valem a pena."
+    "overviewTitle": "Itens de Shogun's Reign: Roupas, Documentos e Omamori",
+    "overviewDescription": "Todos os itens de Shogun's Reign explicados: guarda-chuvas, roupas, documentos, receitas de omamori e os equipamentos que valem a pena buscar."
   },
   "codes": {
     "overviewTitle": "Códigos de Shogun's Reign",
-    "overviewDescription": "Todos os códigos ativos de Shogun's Reign e como resgatá-los para ganhar recompensas, Ryo e melhorias grátis."
+    "overviewDescription": "Todos os códigos ativos de Shogun's Reign e como resgatá-los para recompensas grátis, Ryo e boosts."
   },
   "controls": {
-    "overviewTitle": "Controles de Shogun's Reign: VR, pesca e ações diárias",
+    "overviewTitle": "Controles de Shogun's Reign: VR, Pesca e Ações Diárias",
     "overviewDescription": "Controles de Shogun's Reign para PC e VR, além de como pescar, dormir e comer sem errar os comandos."
   },
   "shared": {
-    "wikiNavigation": "Navegação da wiki",
-    "activeCodes": "Códigos ativos",
+    "wikiNavigation": "Navegação da Wiki",
+    "activeCodes": "Códigos Ativos",
     "updated": "Atualizado",
     "viewAllCodes": "Ver todos os códigos",
     "playOnRoblox": "Jogar no Roblox",
     "inThisSection": "Nesta seção",
     "tableOfContents": "Índice",
-    "nextSteps": "Próximos passos",
-    "needHelp": "Precisa de ajuda?",
-    "relatedReading": "Leitura relacionada",
-    "relatedGuides": "Guias relacionados",
-    "readMore": "Ler mais",
+    "nextSteps": "Próximos Passos",
+    "needHelp": "Precisa de Ajuda?",
+    "relatedReading": "Leitura Relacionada",
+    "relatedGuides": "Guias Relacionados",
+    "readMore": "Leia mais",
     "officialMedia": "Mídia oficial",
     "home": "Início",
-    "noGuidesAvailable": "Ainda não há guias disponíveis. Volte em breve!"
+    "noGuidesAvailable": "Nenhum guia disponível ainda. Volte em breve!"
   },
   "footer": {
-    "aboutTitle": "Shogun's Reign Wiki",
-    "about": "A Shogun's Reign Wiki é um hub de guias independente feito por fãs que cobre trabalhos, patentes, farm de Ryō, moradia, progressão e conhecimentos essenciais do jogo para jogadores novos e veteranos de Roblox.",
-    "quickLinks": "Links rápidos",
+    "aboutTitle": "Wiki Shogun's Reign",
+    "about": "A Wiki Shogun's Reign é um hub de guias independente feito por fãs, cobrindo trabalhos, rankings, cultivo de Ryō, moradia, progressão e conhecimentos essenciais do jogo para jogadores novos e veteranos do Roblox.",
+    "quickLinks": "Links Rápidos",
     "guides": "Guias",
     "legal": "Legal",
-    "copyright": "2026 Shogun's Reign Wiki. Sem afiliação com Shogun's Reign ou Roblox.",
-    "description": "RPG e progressão do período Edo no Roblox. Ganhe Ryō, domine profissões e suba de fazendeiro a Shogun.",
+    "copyright": "2026 Wiki Shogun's Reign. Não afiliada a Shogun's Reign ou Roblox.",
+    "description": "Roleplay e progressão no período Edo no Roblox. Ganhe Ryō, domine profissões e suba de fazendeiro a Shogun.",
     "playGame": "Jogar Shogun's Reign",
-    "officialDiscord": "Comunidade oficial do Roblox",
-    "officialYoutube": "Guia de gameplay",
-    "vvBuilder": "Central de guias de Shogun's Reign",
-    "beginnerGuide": "Guia para iniciantes",
-    "privacyPolicy": "Política de privacidade",
-    "termsOfService": "Termos de serviço",
-    "progressionGuides": "Guias de progressão",
-    "combatGuides": "Guias de combate",
+    "officialDiscord": "Comunidade Oficial no Roblox",
+    "officialYoutube": "Guia de Gameplay",
+    "vvBuilder": "Hub de Guias de Shogun's Reign",
+    "beginnerGuide": "Guia para Iniciantes",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
+    "progressionGuides": "Guias de Progressão",
+    "combatGuides": "Guias de Combate",
     "codesGuides": "Códigos"
   }
 }

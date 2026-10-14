@@ -1,123 +1,89 @@
 export const metadata = {
-  title: "Shogun's Reign Schlaf-Steuerung: Rasten, Fortschritt speichern und Eingaben meistern",
-  description: "Erfahre, wie die Schlaf-Steuerung in Shogun's Reign funktioniert, wann du rasten solltest und wie du häufige Schlaf-Bugs behebst, damit du nie wieder Fortschritt verlierst.",
+  title: "Shogun's Reign: Ein praktischer Leitfaden zum Aufstieg im Edo-Japan",
+  description: "Ein fundierter Leitfaden zu Shogun's Reign auf Roblox: verifizierte Funktionen, was Drittanbieter-Guides berichten und was schlicht undokumentiert ist.",
   category: "controls",
-  date: "2026-10-07",
-}
+  date: "2026-10-14",
+};
 
-## Warum die Schlaf-Steuerung in Shogun's Reign wichtiger ist, als du denkst
+Wenn du nach Shogun's Reign gesucht hast, bist du wahrscheinlich auf dasselbe Problem gestoßen, das die meisten neuen Spieler trifft: viele selbstsichere Ratschläge, aber nur wenige mit Quellenangabe. Das ist wichtig, denn Shogun's Reign ist ein Progressionsspiel. Ob du Reis für dein erstes Ryō anbaust oder auf einen Titel hinarbeitest – die Lücke zwischen verifizierten Informationen und hoffnungsvollen Vermutungen ist der Unterschied zwischen stetigem Fortschritt und einem verschwendeten Abend.
 
-Kaum eine Mechanik in Shogun's Reign bestraft Ungeduld härter als das Rasten. Du kannst einen schweren Kampf gewinnen, dein Territorium erweitern – und trotzdem mit ansehen, wie die Session zerfällt, weil du die Schlaf-Steuerung in Shogun's Reign nie gelernt hast: die Eingabe, die deinen Fortschritt sichert und den Zustand deines Charakters zurücksetzt. Die Schlaf-Mechanik von Shogun's Reign ist wichtig, weil sie das stille Scharnier zwischen einer produktiven und einer verschwendeten Session ist: Überspringst du sie, grindest du weiter mit leeren Ausdauerwerten und fragilen Speicherständen; meisterst du sie, addiert sich jede Stunde, die du spielst.
+Dieser Leitfaden ist bewusst in drei Stufen unterteilt: was der Entwickler tatsächlich bewirbt, was Drittanbieter-Spieler berichten und was niemand dokumentiert hat. Alles, was in die dritte Kategorie fällt, wird als solches gekennzeichnet, anstatt mit erfundenen Zahlen aufgefüllt zu werden.
 
-Dieser Leitfaden zeigt, wo die Schlaf-Eingabe in jedem Steuerungsschema liegt, wie der Rast-Übergang abläuft, welche Fehler die häufigsten Schlaf-Bugs verursachen und wie du eine Rast-Routine aufbaust, die zu deiner tatsächlichen Spielweise passt. Alles hier ist für Spieler geschrieben, die weniger Überraschungen wollen – und nicht mehr Lore.
+## Was die offizielle Seite tatsächlich bestätigt
 
-Die meisten Spieler betrachten Rasten als Leerlauf, als etwas, das man einschiebt, wenn gerade nichts anderes passiert. Diese Sichtweise ist verkehrt herum. Schlaf ist der Moment, in dem das Spiel deine Entscheidungen festhält – in den meisten Builds buchstäblich im Speicher. Ihn als eine Eingabe zu behandeln, die du bewusst meisterst, zahlt sich daher mehr aus, als noch einen zusätzlichen Kampf in eine Session zu quetschen.
+Shogun's Reign ist ein Roblox-Erlebnis, das unter der Place-ID 106568491289620 gelistet ist und von der Creator-Gruppe Shogun's Reign erstellt wurde. Der offizielle Eintrag zeigt, dass der Place am 2026-07-25 erstellt und zuletzt am 2026-10-13 aktualisiert wurde, mit ungefähr 7,3 Millionen Besuchen und etwa 3.300 Spielern, die zum Zeitpunkt des Abrufs online waren. Diese Kombination aus einem kürzlichen Erstellungsdatum und einer großen, aktiven Spielerbasis verrät dir etwas Nützliches, noch bevor du überhaupt ins Spiel lädst: Das Spiel ist jung, es wird aktualisiert und es ist gut besucht.
 
-## Wo die Schlaf-Eingabe in den einzelnen Steuerungsschemata liegt
+Die offizielle Beschreibung ist die maßgebliche Quelle dafür, was das Spiel ist. Sie bewirbt:
 
-Schlaf ist in Shogun's Reign fast immer eine kontextabhängige Aktion und keine eigenständige Taste. Das bedeutet, die Eingabe wird nur ausgelöst, wenn das Spiel entscheidet, dass du an einem gültigen Ort stehst und nicht in Kampf, Dialog oder Zwischensequenz gebunden bist.
+- Landwirtschaft und Arbeit als Weg zu deinem ersten Ryō
+- Städte, Dörfer, Schreine, Anwesen und Straßen zum Erkunden
+- Ein Berufssystem zum Meistern
+- Ein Reputationssystem
+- Ränge, die bis zum Shogun aufsteigen
+- Wettbewerb um Autorität, mit einer einzigen Shogun-Position
 
-| Steuerungsschema | Wie der Schlaf üblicherweise ausgelöst wird | So bestätigst du deine Belegung |
-|---|---|---|
-| Tastatur und Maus | Interagieren-Prompt innerhalb einer Rastzone | Öffne Einstellungen → Steuerung und prüfe den Eintrag Interaktion/Rasten |
-| Gamepad | Face-Button-Prompt in der Nähe von Bettzeug oder einer Rastmarkierung | Folge dem Bildschirm-Prompt; belege neu, falls es zu Konflikten kommt |
-| Touchscreen | Tippe und halte das Schlaf-Symbol auf dem HUD | Nutze den Layout-Editor, um das Symbol zu verschieben oder seine Größe zu ändern |
-| Handheld oder Streaming | Übernimmt das Controller-Layout, das du zuletzt verwendet hast | Prüfe die Belegung nach einem Gerätewechsel erneut |
+Alles in dieser Liste ist sicher für die Planung. Alles, was nicht in dieser Liste steht, ist der Bereich, in dem Spieler anfangen zu raten. Die vollständige offizielle Auflistung kannst du hier lesen: https://www.roblox.com/games/106568491289620/Shoguns-Reign.
 
-Betrachte jede Tastenliste, die du online findest – auch diese hier – als Ausgangspunkt und nicht als Evangelium. Belegungen unterscheiden sich zwischen Plattformen und lassen sich vom Spieler neu zuweisen. Die einzige Belegung, die zählt, ist daher die, die in deinem eigenen Steuerungsmenü angezeigt wird. Wenn dein Prompt nach einem Update verschwindet, ist dieses Menü die erste Anlaufstelle.
+## Die Kernschleife: Ryō, Reputation, Rang
 
-Vier Regeln gelten für die Schlaf-Eingabe unabhängig von der Plattform:
+Die beworbene Schleife ist erfrischend klar. Du kommst mit fast nichts an, verdienst Ryō durch Landwirtschaft, Arbeit und Handel und wandelst dieses Geld und diese Mühe in besseres Ansehen um. Reputation und Rang sind die langfristigen Währungen; Ryō ist die kurzfristige.
 
-- **Du musst stillstehen.** Bewegungs-Eingaben während des Übergangs brechen ihn oft ab.
-- **Du musst dich in einer gültigen Zone befinden.** Bettzeug, ein Gasthaus oder eine ausgewiesene Rastmarkierung.
-- **Du darfst nicht im Kampf sein.** Gegner in der Nähe blockieren den Prompt vollständig.
-- **Du musst bestätigen.** Die meisten Builds zeigen einen Prompt oder Timer, bevor die Rast ausgeführt wird.
+Was die offizielle Seite jedoch nicht tut, ist Vergütungssätze zu veröffentlichen. Sie sagt dir nicht, wie viel eine bestimmte Aufgabe einbringt, wie viel Reputation du für einen bestimmten Rang brauchst oder wie lange der Aufstieg dauert. Drittanbieter-Guides präsentieren diese häufig als feste Zahlen. Behandle solche Zahlen als Beobachtungen aus einem bestimmten Patch, nicht als Dokumentation, und überprüfe sie nach jedem Update im Spiel erneut.
 
-## Wie die Schlaf-Mechanik von Shogun's Reign tatsächlich funktioniert
+| Aus offiziellen Quellen verifiziert | Offiziell nicht dokumentiert |
+|---|---|
+| Landwirtschaft und Arbeit bringen Ryō ein | Konkrete Ryō-Vergütungssätze |
+| Berufe können gemeistert werden | Die vollständige Berufsliste |
+| Reputation beeinflusst das Ansehen | Reputationsschwellen |
+| Ränge reichen bis zum Shogun | Voraussetzungen pro Rang |
+| Wettbewerb um Autorität | Auswahlregeln für den Shogun |
 
-Unter der Haube ist Schlaf ein Zustandsübergang mit drei Prüfungen: Ort, Bedrohung und Zeit. Das Spiel bestätigt, dass du dich in einer gültigen Rastzone befindest, bestätigt, dass kein Gegner involviert ist, und stellt dann die Spieluhr vor und wendet die Erholung an. In vielen Builds wird dabei auch ein Autosave geschrieben – deshalb schlafen erfahrene Spieler, bevor sie das Spiel schließen, und nicht danach.
+Wenn du eine verlässliche Antwort auf einen Punkt in der rechten Spalte möchtest, ist der schnellste Weg, im Spiel zu fragen oder die offizielle Seite nach einem Update zu prüfen, da der Entwickler diese Werte ohne Vorankündigung ändern kann.
 
-### Was eine vollständige Rast üblicherweise wiederherstellt
+## Was du zuerst tun solltest
 
-| Ressource | Wirkung nach dem Schlafen | Hinweise |
-|---|---|---|
-| Ausdauer | Wird bis zum Maximum aufgefüllt | Der Hauptgrund, vor einem langen Marsch zu rasten |
-| Gesundheit | Wird über die Animation hinweg wiederhergestellt | In manchen Builds nur teilweise Erholung |
-| Fokus- oder Wachsamkeits-Buff | Temporärer Bonus | Dauer hängt von der Rastqualität ab |
-| Spieluhr | Stellt um mehrere Stunden vor | Nützlich für zeitlich begrenzte Events |
-| Speicherstand | In den meisten Builds ein Autosave | Prüfe, ob Autosave aktiviert ist |
+Da die Rangvoraussetzungen undokumentiert sind, ist der kluge frühe Ansatz Breite, nicht Optimierung. Mehrere Arbeitsformen auszuprobieren zeigt dir, welche du zuverlässig ausführen kannst, wie die Umgebung reagiert und wo sich andere Spieler versammeln. Es verhindert auch, dass du dich auf einen Grind festlegst, der stillschweigend neu ausbalanciert wurde.
 
-### Wann du schlafen und wann du durchhalten solltest
+Spielerpraxis, nicht dokumentierte Mechaniken: Viele Spieler behandeln den ersten Abschnitt eher als Tour denn als Arbeit. Geh die Straßen entlang, schau dir die Städte und Schreine an und notiere, welche Gebiete belebt wirken. Belebte Gebiete sind tendenziell dort, wo Handel stattfindet und wo reputationsbildende Interaktionen vorkommen, aber das ist ein Gemeinschaftsmuster, keine vom Entwickler veröffentlichte Regel.
 
-| Situation | Empfohlene Vorgehensweise | Warum es hilft |
-|---|---|---|
-| Niedrige Ausdauer vor einem Boss-Versuch | Zuerst schlafen | Du gehst mit voller Kapazität in den Kampf |
-| Mitten in einer Quest mit laufendem Timer | Weiter durchhalten | Schlafen kann die Uhr über die Deadline hinaus vorspulen |
-| Nach einem großen Upgrade oder Kauf | Schlafen, um den Fortschritt zu sichern | Schreibt die Änderung in deinen Speicherstand |
-| Wiederholte Tode in einem Gebiet | Schlafen, dann die Herangehensweise ändern | Setzt dein mentales Modell und deine Ressourcen zurück |
-| Kurz vor dem Ausloggen | Schlafen, dann beenden | Verringert das Risiko, kürzlich erzielten Fortschritt zu verlieren |
+Sobald du ein Gefühl für die Karte hast, ergibt es Sinn, sich auf einen Beruf zu konzentrieren. Die offizielle Beschreibung verspricht, dass Berufe gemeistert werden können, also ist Spezialisierung ein unterstützter Weg. Sie verrät dir nur nicht die Liste, die Kosten oder den Nutzen.
 
-## Häufige Schlaf-Probleme in Shogun's Reign und ihre Lösungen
+## Rollenspiel-Etikette in einem Edo-Setting
 
-Community-Berichte drehen sich um eine kleine Gruppe wiederkehrender Probleme. Keines davon ist mysteriös, sobald du weißt, was es auslöst.
+Shogun's Reign wird als Rollenspiel- und Progressionserlebnis beschrieben, was bedeutet, dass die soziale Ebene genauso wichtig ist wie die Zahlen. Etikette ist hier Spielerkonvention, keine dokumentierte Mechanik, aber sie beeinflusst, wie schnell du einbezogen wirst.
 
-| Symptom | Wahrscheinliche Ursache | Lösung |
-|---|---|---|
-| Schlaf-Prompt erscheint nie | Du befindest dich nicht in einer gültigen Rastzone | Geh zu Bettzeug, einem Gasthaus oder einem markierten Rastpunkt |
-| Animation startet und bricht dann ab | Bewegungs- oder Angriffs-Eingabe während des Übergangs | Lass alle Eingaben los und warte, bis der Prompt abgeschlossen ist |
-| Charakter wacht sofort auf | Gegner in der Nähe oder ein aktiver Quest-Status | Räume das Gebiet oder bring die Quest zuerst voran |
-| Fortschritt nach dem Schlafen nicht gespeichert | Autosave deaktiviert oder Speicherproblem | Aktiviere Autosave und prüfe den freien Speicherplatz |
-| Schlaf-Eingabe reagiert nicht | Neu zugewiesene oder konfliktbehaftete Belegung | Setze die Steuerung auf Standard zurück und belege dann sorgfältig neu |
+Ein paar weit verbreitete Gewohnheiten:
 
-Die Spielerfahrung liefert ein paar praktische Hinweise, die kein Patch-Note verrät. Wenn du in einer Zone schläfst, die du nicht vollständig gesichert hast, wachst du möglicherweise in einer veränderten Situation auf – das ist beabsichtigtes Verhalten, kein Bug. Wenn du schläfst, während ein zeitlich begrenztes Ziel aktiv ist, läuft der Timer weiter. Und wenn du nach einer Cloud-Session auf einem Handheld spielst, überprüfe deine Belegung erneut; die Eingabezuordnung folgt gelegentlich dem letzten Gerät statt dem aktuellen.
+- Verbeuge dich, wenn du den Bereich einer anderen Person betrittst, und warte, bis dich höherrangige Spieler ansprechen, bevor du ausführlich sprichst.
+- Halte Out-of-Character-Geplänkel klar getrennt von In-Character-Rede, damit Szenen nicht gestört werden.
+- Frage, bevor du das Eigentum, den Stand oder den Arbeitsbereich eines anderen Spielers berührst.
+- Gehe nicht davon aus, dass ein Titel dir Autorität über eine Szene verleiht; frage, wer sie leitet.
+- Sei geduldig mit Neulingen, da das Spiel neu und die Spielerschaft groß ist.
 
-## Schlaf vs. andere Erholungsoptionen
+Nichts davon wird durch ein Regelwerk durchgesetzt, das du lesen kannst. Es ist einfach, wie sich viele Spieler verhalten, und sich dem anzupassen reduziert tendenziell Reibung.
 
-Schlaf ist nicht die einzige Möglichkeit zur Erholung, und zu wissen, wann du etwas Günstigeres einsetzt, spart echte Zeit.
+## Der Aufstieg zum Shogun
 
-| Erholungsmethode | Zeitaufwand | Was sie wiederherstellt | Am besten geeignet für |
-|---|---|---|---|
-| Vollständiger Schlaf | Stellt die Uhr um mehrere Stunden vor | Ausdauer, Gesundheit, Buffs, Speicherung | Vor großen Kämpfen und vor dem Beenden |
-| Kurze Rast oder Meditation | Minimal | Teilweise Ausdauer | Zum Auffüllen zwischen kurzen Begegnungen |
-| Essen und Trinken | Sofort | Ausdauer und temporäre Buffs | Bei der Erkundung, wenn du keine Rastzone erreichen kannst |
-| Schrein- oder Safezone-Rast | Gering | Teilweise Erholung und ein sicherer Punkt | Um einen zuverlässigen Respawn-Ort zu setzen |
-| Erholung ignorieren | Keiner | Nichts | Lohnt sich fast nie |
+Das große Ziel ist ausdrücklich: steige im Rang auf, sammle Reputation und konkurriere um eine einzige Shogun-Position. Diese Knappheit ist das Design. Es gibt einen Sitz, was bedeutet, dass die Spitze der Leiter von Natur aus umkämpft statt kooperativ ist.
 
-Der Kompromiss ist einfach: Schlaf bietet den vollständigsten Reset, kostet aber die meiste Spielzeit. Wenn dein aktuelles Ziel zeitkritisch ist, greifst du besser zu einer Mahlzeit oder einer kurzen Rast. Wenn nicht, ist Schlaf fast immer der stärkere Zug, weil er auch deinen Speicherstand festschreibt.
+Was nicht dokumentiert ist, ist, wie die Position den Besitzer wechselt, ob sie durch Rang, Reputation, eine Abstimmung, ein Event oder etwas ganz anderes entschieden wird. Drittanbieter-Guides behaupten gelegentlich, es zu wissen, aber die offizielle Auflistung beschreibt es nicht. Wenn das Shogun-Rennen dein Ziel ist, lautet der ehrliche Rat, Reichtum und Reputation stetig aufzubauen und dabei offizielle Update-Notizen zu verfolgen, denn die Regeln rund um Autorität können sich in einem so jungen Spiel verschieben.
 
-## Eine Rast-Routine passend zu deiner Session-Länge aufbauen
+## Häufig gestellte Fragen
 
-Die beste Schlaf-Gewohnheit hängt davon ab, wie lange du dich tatsächlich zum Spielen hinsetzt. Nutze dies als Ausgangsrahmen und passe es an dein eigenes Tempo an.
+**Ist Shogun's Reign Pay-to-Win?**
+Die offizielle Beschreibung erwähnt keine Monetarisierungsdetails. Auf der Seite ist nichts dokumentiert, was bezahlte Vorteile belegt, und auch kein Codesystem ist dokumentiert.
 
-| Session-Länge | Schlaf-Plan | Nutzen |
-|---|---|---|
-| 15–20 Minuten | Eine Rast zu Beginn, eine vor dem Beenden | Sauberer Einstieg und sauberer Ausstieg |
-| 45–60 Minuten | Rast vor jeder größeren Begegnung | Weniger vermeidbare Tode |
-| Zwei Stunden oder mehr | Rast an natürlichen Kapitel- oder Quest-Pausen | Fortschritt bleibt gesichert, falls etwas abstürzt |
-| Letzte Session des Tages | Schlafen, dann beenden | Deine letzte Spielstunde ist gespeichert |
+**Gibt es Promo-Codes?**
+Die offizielle Seite dokumentiert keine. Jede Seite, die aktive Codes für Shogun's Reign behauptet, stellt etwas auf, das der Entwickler nicht veröffentlicht hat.
 
-Ein paar Gewohnheiten unterscheiden Spieler, die selten Fortschritt verlieren, von denen, die ihn ständig verlieren:
+**Was sind die Berufe?**
+Offiziell nicht dokumentiert. Die Beschreibung bestätigt, dass Berufe existieren und gemeistert werden können, aber die offizielle Auflistung listet sie nicht auf. Prüfe es im Spiel.
 
-- **Schlaf, bevor du dich ausloggst, nicht danach.** Das Speichern passiert während der Rast, nicht beim Schließen des Spiels.
-- **Halte eine Rastzone auf deiner Hauptroute.** Ein kurzer Umweg ist besser als ein langer Rückweg.
-- **Behalte die Uhr vor dem Rasten im Blick.** Wenn ein zeitlich begrenztes Event ansteht, kann dich Schlaf daran vorbeischieben.
-- **Raste nach großen Entscheidungen.** Käufe, Upgrades und Quest-Abgaben sind es alle wert, gesichert zu werden.
-- **Schlafe nicht mitten im Kampf.** Der Prompt wird nicht ausgelöst, und du verschwendest den Versuch.
+**Wie viel Ryō bringt Landwirtschaft ein?**
+Es wird keine offizielle Zahl veröffentlicht. Jede präzise Zahl, die du siehst, ist eine Drittanbieter-Beobachtung, die veraltet sein kann.
 
-Für allgemeine Hinweise zum Steuerungslayout und übergreifende Eingabekonventionen in verschiedenen Genres ist [IGNs Game-Guides-Hub](https://www.ign.com/) eine zuverlässige Referenz, wenn du vergleichen möchtest, wie andere Titel kontextabhängige Aktionen handhaben.
+**Gibt es ein Wohnungssystem?**
+Nicht auf der offiziellen Seite dokumentiert. Die Beschreibung erwähnt Anwesen zum Erkunden, beschreibt aber kein Spieler-Wohnen.
 
-## FAQ: Fragen zum Schlafen in Shogun's Reign
-
-**Gibt es in Shogun's Reign eine eigene Schlaf-Taste?**
-In den meisten Builds: nein. Die Schlaf-Aktion in Shogun's Reign ist kontextabhängig – sie erscheint als Prompt, wenn du in einer gültigen Rastzone stehst und kein Gegner involviert ist. Prüfe dein Steuerungsmenü auf den Eintrag Interaktion oder Rasten, denn das ist die Belegung, die der Prompt verwendet.
-
-**Kannst du überall auf der Karte schlafen?**
-Im Allgemeinen nein. Rasten ist auf ausgewiesene Orte wie Bettzeug, Gasthäuser oder markierte sichere Punkte beschränkt. Community-Berichten zufolge ist der Prompt bewusst eingeschränkt, damit Schlafen eine bedeutungsvolle Entscheidung bleibt und kein kostenloser Reset ist.
-
-**Speichert Schlafen dein Spiel?**
-In den meisten Builds ja, sofern Autosave aktiviert ist. Genau deshalb lohnt es sich, die Schlaf-Steuerung in Shogun's Reign früh zu lernen: Sie fungiert gleichzeitig als dein zuverlässigster Speicherpunkt. Wenn du bemerkst, dass Fortschritt nach einer Rast nicht erhalten bleibt, prüfe zuerst deine Autosave-Einstellungen und den verfügbaren Speicherplatz.
-
-**Warum wacht mein Charakter direkt nach dem Schlafen auf?**
-Die zwei häufigsten Ursachen sind ein Gegner in der Nähe und ein aktiver Quest-Status, der die Rast blockiert. Räume das Gebiet, schließe das Ziel ab oder bring es voran und versuche es dann erneut. Wenn das Problem in einer Zone bestehen bleibt, die du bereits gesichert hast, setze deine Steuerung auf Standard zurück – eine konfliktbehaftete Belegung kann den Übergang unterbrechen.
-
-Rasten zu meistern ist nicht glamourös, aber es ist eine der wertvollsten Eingaben im Spiel. Schlafe bewusst, schlafe, bevor du aufhörst – und die Schlaf-Mechanik von Shogun's Reign hört auf, ein Hintergrunddetail zu sein, und wird zum Grund, warum dein Fortschritt überlebt.
+**Wie werde ich Shogun?**
+Die offizielle Seite bestätigt, dass ein Shogun-Rang existiert und dass um Autorität konkurriert wird. Die genauen Voraussetzungen sind nicht dokumentiert. Verifiziere es im Spiel.

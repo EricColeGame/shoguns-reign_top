@@ -28,10 +28,10 @@
       "title": "Shogun's Reign Wiki",
       "description": "Explore an Edo-period Roblox roleplay experience where you earn Ryō, master professions, build reputation, climb the social hierarchy, and pursue the ultimate title of Shogun.",
       "stats": [
-        "4.5M+ Total Visits",
-        "9.6K Peak CCU",
-        "July 2026 Release Date",
-        "Weekly Updates"
+        "About 7.3M Total Visits",
+        "Creator Group: Shogun's Reign",
+        "Place Created: 25 July 2026",
+        "Updated: 13 October 2026"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Ranks & Professions",
@@ -152,23 +152,23 @@
         },
         {
           "label": "Visits",
-          "value": "4.5M+"
+          "value": "About 7.3M"
         },
         {
           "label": "Peak CCU",
-          "value": "9.6K"
+          "value": "Not documented"
         },
         {
           "label": "Released",
-          "value": "July 2026"
+          "value": "Place created 25 July 2026"
         },
         {
           "label": "Community",
-          "value": "449.5K+"
+          "value": "Not documented"
         },
         {
           "label": "Updates",
-          "value": "Weekly"
+          "value": "See official Roblox page"
         }
       ],
       "cta": "Explore All Guides"
@@ -186,23 +186,23 @@
           "highlights": [
             {
               "label": "1",
-              "detail": "Lock in one dependable income source before you spend on anything else."
+              "detail": "Learn the basic controls and movement first."
             },
             {
               "label": "2",
-              "detail": "Secure a single defensible border so you only ever fight on one front."
+              "detail": "Start with farming or labour to earn your first Ryō."
             },
             {
               "label": "3",
-              "detail": "Scout your nearest rival early so you can plan around their army."
+              "detail": "Explore the starting town and nearby roads."
             },
             {
               "label": "4",
-              "detail": "Turn one neighbor friendly to remove a second front before it opens."
+              "detail": "Choose a profession that matches your playstyle."
             },
             {
               "label": "5",
-              "detail": "Hold a reserve so you can raise emergency troops or buy peace."
+              "detail": "Build reputation by completing tasks and trades."
             }
           ]
         },
@@ -239,20 +239,20 @@
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S",
-              "detail": "Shogun / Regent — the top of the ladder, elite play and seasonal titles."
+              "label": "High",
+              "detail": "Shogun — the single top position, competed for by all players."
             },
             {
-              "label": "A",
-              "detail": "Daimyo / Warlord — consistency, meta knowledge, and leaderboard placement."
+              "label": "High",
+              "detail": "Noble — senior ranks with authority and access."
             },
             {
-              "label": "B",
-              "detail": "Samurai / Ronin — positioning, objective play, and role discipline."
+              "label": "Mid",
+              "detail": "Warrior — combat-focused ranks and duties."
             },
             {
-              "label": "C",
-              "detail": "Ashigaru / Retainer — basic controls, a simple economy, and early duels."
+              "label": "Low",
+              "detail": "Servant — starting ranks with basic labour and farming."
             }
           ]
         },
@@ -264,24 +264,24 @@
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "Battles",
-              "detail": "Skirmish and battle rewards pay well but swing with the outcome."
+              "label": "Farming",
+              "detail": "Grow and harvest crops for reliable early Ryō."
             },
             {
-              "label": "Quests",
-              "detail": "Objectives and quests give predictable one-time Ryō for early upgrades."
+              "label": "Labour",
+              "detail": "Take on manual jobs around towns and villages."
             },
             {
-              "label": "Holdings",
-              "detail": "Controlled territory produces recurring passive income as you expand."
+              "label": "Trades",
+              "detail": "Buy low and sell high between settlements."
             },
             {
-              "label": "Events",
-              "detail": "Limited-time events are the best window to stockpile a war chest."
+              "label": "Professions",
+              "detail": "Master a trade to increase your income over time."
             },
             {
-              "label": "Trading",
-              "detail": "Selling surplus turns dead assets into liquid Ryō on demand."
+              "label": "Reputation",
+              "detail": "Build standing to unlock better opportunities."
             }
           ]
         },
